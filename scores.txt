@@ -1,7 +1,7 @@
 Set scores to 0
 {'Dunne': 0, 'Jack': 0, 'Mike': 0, 'Silv': 0, 'Sully': 0}
 Generating Scores
-Rosters succusfully created
+Rosters successfully created
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/06/all-conf
 Jack had Oregon who beat Georgia... One Point awarded
 Sully had Tennessee who beat Tennessee Tech... One Point awarded
@@ -116,12 +116,13 @@ Sully had Baylor who beat Gardner-Webb... One Point awarded
 Dunne had Indiana who beat Army West Point... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/13/all-conf
 Dunne had Michigan who beat St. John's (NY)... One Point awarded
-Jack had Duquesne who beat Stony Brook... One Point awarded
 Silv had Miami (FL) who beat FIU... One Point awarded
-Mike had Arizona who beat Southern U.... One Point awarded
-Sully had Arkansas who beat Old Dominion... One Point awarded
-Jack had Houston who beat Stetson... One Point awarded
+Jack had Duquesne who beat Stony Brook... One Point awarded
 Mike had Kansas St. who beat South Dakota St.... One Point awarded
+Sully had Arkansas who beat Old Dominion... One Point awarded
 Dunne had Missouri who beat SIUE... One Point awarded
+Jack had Houston who beat Stetson... One Point awarded
+Mike had Arizona who beat Southern U.... One Point awarded
 Jack had Purdue who beat Xavier... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/14/all-conf
 {'Dunne': 21, 'Jack': 26, 'Mike': 26, 'Silv': 21, 'Sully': 24}
