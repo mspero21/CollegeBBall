@@ -6,14 +6,13 @@ from varaibles import drafted_teams
 # Send an HTTP GET request to the URL
 
 SCORES= {}
-found_teams = []
-missing_teams = []
 TODAY = datetime.date.today()
 TEAM_NAMES = ["Dunne","Jack","Mike","Silv","Sully"]
 DRAFTED_TEAMS = drafted_teams
-# Define the start date (November 1st)
 START_DATE = datetime.date(2023, 11, 6)
 
+# found_teams = []
+# missing_teams = []
 
 def initialze_score(output_file):
     for name in TEAM_NAMES:
