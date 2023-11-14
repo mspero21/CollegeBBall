@@ -31,7 +31,7 @@ def generateTeams(output_file):
         exit()
 
     if 'TCU' in rosters['Dunne']:
-        print("Rosters succusfully created", file=output_file)
+        print("Rosters successfully created", file=output_file)
         return rosters
     else:
         print("Rosters unsucusfully created", file=output_file)
