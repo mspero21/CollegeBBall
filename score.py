@@ -14,6 +14,12 @@ DRAFTED_TEAMS = drafted_teams
 # Define the start date (November 1st)
 START_DATE = datetime.date(2023, 11, 6)
 
+
+def initialze_score(output_file):
+    for name in TEAM_NAMES:
+        SCORES[name]=0
+    print(SCORES, file=output_file)
+ 
 def generateTeams(output_file):
     try:
         #Attempt to open rosters file
@@ -75,26 +81,26 @@ def generateGames(rosters, top25, output_file):
             soup = BeautifulSoup(response.text, 'html.parser')
             games = soup.find('div', class_="gamePod_content-pod_container").find_all('div', class_="gamePod")
             for game in games:
-                if game.find('li', class_="winner"):
-                    winner = game.find('li', class_="winner").find('span',class_="gamePod-game-team-name").text
-                    teams = game.find_all('li')
-                    home_team = teams[0].find('span',class_="gamePod-game-team-name").text
-                    away_team = teams[1].find('span',class_="gamePod-game-team-name").text
-                    loser = home_team if away_team == winner else away_team
-                    if winner in DRAFTED_TEAMS:
-                        game_winner(winner,loser,rosters, output_file)
-                        if loser in top25:
-                            top_25_win(winner,loser,rosters, output_file)
-                        #TO ADD
-                            #ROAD CONFERENCE WINS
+                    if game.find('li', class_="winner") is not None:
+                        winner = game.find('li', class_="winner").find('span',class_="gamePod-game-team-name").text
+                        teams = game.find_all('li')
+                        home_team = teams[0].find('span',class_="gamePod-game-team-name").text
+                        away_team = teams[1].find('span',class_="gamePod-game-team-name").text
+                        loser = home_team if away_team == winner else away_team
+                        if winner in DRAFTED_TEAMS:
+                            game_winner(winner,loser,rosters, output_file)
+                            if loser in top25:
+                                top_25_win(winner,loser,rosters, output_file)
+                            #TO ADD
+                                #ROAD CONFERENCE WINS
 
 
 
-                        #Uncomment this code to track teams that are being found for debugging purposes
-                        # if winner not in found_teams:
-                        #     found_teams.append(winner)
-                        # if loser not in found_teams:
-                        #     found_teams.append(loser)
+                            #Uncomment this code to track teams that are being found for debugging purposes
+                            # if winner not in found_teams:
+                            #     found_teams.append(winner)
+                            # if loser not in found_teams:
+                            #     found_teams.append(loser)
         else:
             print("Failed to retrieve the web page. Status code:", response.status_code, file=output_file)
             exit()
@@ -113,21 +119,18 @@ def top_25_win(winner,loser,rosters, output_file):
             value = SCORES[roster]
             newValue = value + 5
             SCORES[roster] = newValue
-    
-def find_missing_teams(teams):
-    for roster in TEAM_NAMES:
-        for player in teams[roster]:
-            if player not in found_teams:
-                missing_teams.append(player)
 
-def initialze_score(output_file):
-    for name in TEAM_NAMES:
-        SCORES[name]=0
-    print(SCORES, file=output_file)
+    
+# def find_missing_teams(teams):
+#     for roster in TEAM_NAMES:
+#         for team in teams[roster]:
+#             if team not in found_teams:
+#                 missing_teams.append(team)
+
         
 # Define the main function that calls my_function
 def main():
-    with open('output.txt', 'w') as output_file:
+    with open('scores.txt', 'w') as output_file:
         print("Set scores to 0", file=output_file)
         initialze_score(output_file)
         print("Generating Scores", file=output_file)
