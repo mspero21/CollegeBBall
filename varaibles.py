@@ -55,3 +55,14 @@ drafted_teams = [ "Duke",
         "Northwestern",
         "St. Bonaventure",
         "Ole Miss"]
+
+team_mappings = {
+    "Michigan State" : "Michigan St.",
+    "Florida Atlantic": "Fla. Atlantic",
+    "Miami" : "Miami (FL)",
+    "San Diego State" : "San Diego St",
+    "USC" : "Southern California",
+    "Saint Mary's" : "Saint Mary's (CA)",
+    "Connecticut" : "UConn", 
+    "James Madison" : "James Madison"
+} 
