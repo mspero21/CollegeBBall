@@ -103,9 +103,6 @@ def generateGames(rosters, output_file):
                         away_team = teams[1].find('span',class_="gamePod-game-team-name").text
                         loser = home_team if away_team == winner else away_team
                         if winner in DRAFTED_TEAMS:
-                            if winner == "Duke":
-                                print(winner)
-                                print(loser)
                             game_winner(winner,loser,rosters, output_file)
                             if loser in top25:
                                 top_25_win(winner,loser,rosters, output_file)
