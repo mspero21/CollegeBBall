@@ -191,4 +191,16 @@ Jack had Oregon who beat Tennessee St.... One Point awarded
 Mike had San Diego St. who beat Saint Mary's (CA)... One Point awarded
 Mike had Arizona who beat Belmont... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/18/all-conf
-{'Dunne': 36, 'Jack': 43, 'Mike': 42, 'Silv': 37, 'Sully': 35}
+Jack had Mississippi St. who beat Washington St.... One Point awarded
+Dunne had Georgetown who beat Mount St. Mary's... One Point awarded
+Dunne had VCU who beat Seattle U... One Point awarded
+Sully had Northwestern who beat Rhode Island... One Point awarded
+Jack had Rutgers who beat Howard... One Point awarded
+Sully had Creighton who beat Texas Southern... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/19/all-conf
+Mike had Providence who beat Georgia... One Point awarded
+Jack had Mississippi St. who beat Northwestern... One Point awarded
+Silv had Iowa St. who beat Grambling... One Point awarded
+Mike had UConn who beat ... One Point awarded
+Jack had Clemson who beat Boise St.... One Point awarded
+{'Dunne': 38, 'Jack': 47, 'Mike': 44, 'Silv': 38, 'Sully': 37}
