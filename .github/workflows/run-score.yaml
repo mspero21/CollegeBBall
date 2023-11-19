@@ -30,7 +30,7 @@ jobs:
         run: python3 score.py
       
       - name: switching from HTTPS to SSH
-        run: git remote set-url --push origin https://mspero21:$GITHUB_TOKEN@github.com/CollegeBBall
+        run: git remote set-url --push origin https://mspero21:$GITHUB_TOKEN@github.com/mspero21/CollegeBBall
 
       - name: check for changes
         run: git status
