@@ -199,8 +199,8 @@ Jack had Rutgers who beat Howard... One Point awarded
 Sully had Creighton who beat Texas Southern... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/19/all-conf
 Mike had Providence who beat Georgia... One Point awarded
-Jack had Mississippi St. who beat Northwestern... One Point awarded
 Silv had Iowa St. who beat Grambling... One Point awarded
-Mike had UConn who beat ... One Point awarded
 Jack had Clemson who beat Boise St.... One Point awarded
+Jack had Mississippi St. who beat Northwestern... One Point awarded
+Mike had UConn who beat ... One Point awarded
 {'Dunne': 38, 'Jack': 47, 'Mike': 44, 'Silv': 38, 'Sully': 37}
