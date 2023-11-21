@@ -199,23 +199,15 @@ Jack had Rutgers who beat Howard... One Point awarded
 Sully had Creighton who beat Texas Southern... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/19/all-conf
 Mike had Providence who beat Georgia... One Point awarded
-<<<<<<< HEAD
 Jack had Mississippi St. who beat Northwestern... One Point awarded
 Mike had UConn who beat Indiana... One Point awarded
 Jack had Clemson who beat Boise St.... One Point awarded
 Silv had Iowa St. who beat Grambling... One Point awarded
-=======
-Silv had Iowa St. who beat Grambling... One Point awarded
-Mike had UConn who beat Indiana... One Point awarded
-Jack had Clemson who beat Boise St.... One Point awarded
-Jack had Mississippi St. who beat Northwestern... One Point awarded
->>>>>>> ed9497f284d7a66d5a5b3f07361d94f52fe8d96f
 Silv had Miami (FL) who beat Kansas St.... One Point awarded
 Mike had Texas who beat Louisville... One Point awarded
 Silv had Ohio St. who beat Western Mich.... One Point awarded
 Dunne had Georgetown who beat American... One Point awarded
 Dunne had St. John's (NY) who beat Utah... One Point awarded
-<<<<<<< HEAD
 Mike had Michigan St. who beat Alcorn... One Point awarded
 Mike had Arizona who beat UT Arlington... One Point awarded
 Sully had Xavier who beat Saint Mary's (CA)... One Point awarded
@@ -240,12 +232,3 @@ Silv had Kansas who beat Chaminade... One Point awarded
 Jack had Marquette who beat UCLA... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/21/all-conf
 {'Dunne': 43, 'Jack': 56, 'Mike': 60, 'Silv': 42, 'Sully': 41}
-=======
-Mike had Arizona who beat UT Arlington... One Point awarded
-Mike had Michigan St. who beat Alcorn... One Point awarded
-Sully had Xavier who beat Saint Mary's (CA)... One Point awarded
-Sully had Illinois who beat Southern U.... One Point awarded
-Dunne had Southern California who beat Brown... One Point awarded
-Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/20/all-conf
-{'Dunne': 41, 'Jack': 47, 'Mike': 47, 'Silv': 40, 'Sully': 39}
->>>>>>> ed9497f284d7a66d5a5b3f07361d94f52fe8d96f
