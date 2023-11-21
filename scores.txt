@@ -200,7 +200,35 @@ Sully had Creighton who beat Texas Southern... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/19/all-conf
 Mike had Providence who beat Georgia... One Point awarded
 Jack had Mississippi St. who beat Northwestern... One Point awarded
-Silv had Iowa St. who beat Grambling... One Point awarded
-Mike had UConn who beat ... One Point awarded
+Mike had UConn who beat Indiana... One Point awarded
 Jack had Clemson who beat Boise St.... One Point awarded
-{'Dunne': 38, 'Jack': 47, 'Mike': 44, 'Silv': 38, 'Sully': 37}
+Silv had Iowa St. who beat Grambling... One Point awarded
+Silv had Miami (FL) who beat Kansas St.... One Point awarded
+Mike had Texas who beat Louisville... One Point awarded
+Silv had Ohio St. who beat Western Mich.... One Point awarded
+Dunne had Georgetown who beat American... One Point awarded
+Dunne had St. John's (NY) who beat Utah... One Point awarded
+Mike had Michigan St. who beat Alcorn... One Point awarded
+Mike had Arizona who beat UT Arlington... One Point awarded
+Sully had Xavier who beat Saint Mary's (CA)... One Point awarded
+Sully had Illinois who beat Southern U.... One Point awarded
+Dunne had Southern California who beat Brown... One Point awarded
+Jack had Houston who beat Dayton... One Point awarded
+Mike had San Diego St. who beat Washington... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/20/all-conf
+Sully had Tennessee who beat Syracuse... One Point awarded
+Dunne had Indiana who beat Louisville... One Point awarded
+Jack had Purdue who beat Gonzaga... One Point awarded
+Jack had Purdue who beat Gonzaga who was ranked in top 25... Five Points awarded
+Mike had Wisconsin who beat Virginia... One Point awarded
+Mike had Wisconsin who beat Virginia who was ranked in top 25... Five Points awarded
+Mike had UConn who beat Texas... One Point awarded
+Mike had UConn who beat Texas who was ranked in top 25... Five Points awarded
+Dunne had Kentucky who beat Saint Joseph's... One Point awarded
+Silv had Oklahoma St. who beat New Orleans... One Point awarded
+Sully had Colorado who beat Richmond... One Point awarded
+Jack had Oregon who beat Florida A&M... One Point awarded
+Silv had Kansas who beat Chaminade... One Point awarded
+Jack had Marquette who beat UCLA... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/21/all-conf
+{'Dunne': 43, 'Jack': 56, 'Mike': 60, 'Silv': 42, 'Sully': 41}

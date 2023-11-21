@@ -64,5 +64,6 @@ team_mappings = {
     "USC" : "Southern California",
     "Saint Mary's" : "Saint Mary's (CA)",
     "Connecticut" : "UConn", 
-    "James Madison" : "James Madison"
+    "James Madison" : "James Madison",
+    "Mississippi State" : "Mississippi St."
 } 
