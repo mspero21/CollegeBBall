@@ -231,4 +231,15 @@ Jack had Oregon who beat Florida A&M... One Point awarded
 Silv had Kansas who beat Chaminade... One Point awarded
 Jack had Marquette who beat UCLA... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/21/all-conf
-{'Dunne': 43, 'Jack': 56, 'Mike': 60, 'Silv': 42, 'Sully': 41}
+Silv had Gonzaga who beat Syracuse... One Point awarded
+Dunne had Duke who beat La Salle... One Point awarded
+Jack had Maryland who beat UMBC... One Point awarded
+Silv had UCLA who beat Chaminade... One Point awarded
+Jack had Purdue who beat Tennessee... One Point awarded
+Jack had Purdue who beat Tennessee who was ranked in top 25... Five Points awarded
+Dunne had TCU who beat Alcorn... One Point awarded
+Jack had Auburn who beat Alabama A&M... One Point awarded
+Jack had Marquette who beat Kansas... One Point awarded
+Jack had Marquette who beat Kansas who was ranked in top 25... Five Points awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/22/all-conf
+{'Dunne': 45, 'Jack': 70, 'Mike': 60, 'Silv': 44, 'Sully': 41}
