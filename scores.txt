@@ -241,5 +241,16 @@ Dunne had TCU who beat Alcorn... One Point awarded
 Jack had Auburn who beat Alabama A&M... One Point awarded
 Jack had Marquette who beat Kansas... One Point awarded
 Jack had Marquette who beat Kansas who was ranked in top 25... Five Points awarded
+Sully had New Mexico who beat Toledo... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/22/all-conf
-{'Dunne': 45, 'Jack': 70, 'Mike': 60, 'Silv': 44, 'Sully': 41}
+Jack had North Carolina who beat UNI... One Point awarded
+Silv had Kansas who beat Tennessee... One Point awarded
+Silv had Kansas who beat Tennessee who was ranked in top 25... Five Points awarded
+Silv had Villanova who beat Texas Tech... One Point awarded
+Sully had Ole Miss who beat Temple... One Point awarded
+Sully had Creighton who beat Loyola Chicago... One Point awarded
+Sully had Memphis who beat Michigan... One Point awarded
+Jack had Purdue who beat Marquette... One Point awarded
+Jack had Purdue who beat Marquette who was ranked in top 25... Five Points awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/23/all-conf
+{'Dunne': 45, 'Jack': 77, 'Mike': 60, 'Silv': 51, 'Sully': 45}
