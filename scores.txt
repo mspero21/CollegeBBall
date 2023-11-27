@@ -313,4 +313,11 @@ Jack had Maryland who beat South Alabama... One Point awarded
 Mike had San Diego St. who beat California... One Point awarded
 Dunne had St. John's (NY) who beat Holy Cross... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/26/all-conf
-{'Dunne': 56, 'Jack': 88, 'Mike': 81, 'Silv': 78, 'Sully': 60}
+Dunne had VCU who beat Penn St.... One Point awarded
+Silv had Fla. Atlantic who beat Virginia Tech... One Point awarded
+Sully had Colorado who beat Iona... One Point awarded
+Mike had Texas who beat Wyoming... One Point awarded
+Dunne had Indiana who beat Harvard... One Point awarded
+Jack had Texas A&M who beat Iowa St.... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/27/all-conf
+{'Dunne': 58, 'Jack': 89, 'Mike': 82, 'Silv': 79, 'Sully': 61}
