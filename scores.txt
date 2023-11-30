@@ -319,7 +319,6 @@ Sully had Colorado who beat Iona... One Point awarded
 Mike had Texas who beat Wyoming... One Point awarded
 Dunne had Indiana who beat Harvard... One Point awarded
 Jack had Texas A&M who beat Iowa St.... One Point awarded
-<<<<<<< HEAD
 Jack has Purdue who is ranked No. 1 for week 4...4 points awarded
 Jack has Purdue who is ranked No. 1 for week 4.....3 points awarded
 Mike has Arizona who is ranked No. 2 for week 4.....3 points awarded
@@ -367,8 +366,5 @@ Sully had Ole Miss who beat NC State... One Point awarded
 Jack had Clemson who beat Alabama... One Point awarded
 Jack had Clemson who beat Alabama who was ranked in top 25... Five Points awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/29/all-conf
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/30/all-conf
 {'Dunne': 72, 'Jack': 117, 'Mike': 96, 'Silv': 95, 'Sully': 74}
-=======
-Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/27/all-conf
-{'Dunne': 58, 'Jack': 89, 'Mike': 82, 'Silv': 79, 'Sully': 61}
->>>>>>> 807930f3c3ab49005758153e8abe818f07c2db77
