@@ -47,7 +47,7 @@ def generateTeams():
         exit()
 
 
-def generateTop25(id,top_25, output_file):
+def generateTop25(id,top_25, rosters, week_no, output_file, points):
     top_25 = []
     top25URL = f"https://www.collegepollarchive.com/mbasketball/ap/seasons.cfm?appollid={id}"
     response = requests.get(top25URL)
@@ -57,7 +57,7 @@ def generateTop25(id,top_25, output_file):
         soup = BeautifulSoup(response.text, 'html.parser')
         first_rows = soup.find_all('table')
         rows = first_rows[4].find_all('tr')
-        val = 6
+        val = 1
         for num in range(8, 33):
             team_rows = rows[num].find_all('td')
             team = team_rows[2].text
@@ -66,6 +66,32 @@ def generateTop25(id,top_25, output_file):
             if team_final not in DRAFTED_TEAMS:
                 team_final = team_mappings[team_final]
             top_25.append(team_final)
+            if points:
+                if val<26:
+                    if val ==1:
+                        if team_final in DRAFTED_TEAMS:
+                            for name in TEAM_NAMES:
+                                if team_final in rosters[name]:
+                                    SCORES[name] = SCORES[name]+4
+                                    print(f"{name} has {team_final} who is ranked No. 1 for week {week_no}...4 points awarded",file=output_file)
+                    if val<16:
+                        if team_final in DRAFTED_TEAMS:
+                            for name in TEAM_NAMES:
+                                if team_final in rosters[name]:
+                                    SCORES[name] = SCORES[name]+3
+                                    print(f"{name} has {team_final} who is ranked No. {val} for week {week_no}.....3 points awarded",file=output_file)
+                    if val >=16 and val<=25:
+                        if team_final in DRAFTED_TEAMS:
+                            for name in TEAM_NAMES:
+                                if team_final in rosters[name]:
+                                    SCORES[name] = SCORES[name]+1
+                                    print(f"{name} has {team_final} who is ranked No. {val} for week {week_no}.....1 point awarded",file=output_file)
+                val+=1
+                    
+                
+                                      
+
+
     return top_25
 
 
@@ -78,14 +104,20 @@ def generateGames(rosters, output_file):
     top_25_id = 1260
     top_25 = []
     # Loop through dates
+    week_no = 1
+    points = False
     looping_date = START_DATE
     while looping_date <= TODAY:
         formatted_date = looping_date.strftime("%Y/%m/%d")
+        if week_no == 4:
+            points = True
         if formatted_date in TOP_25_DATES:
             top_25 = []
-            top25 = generateTop25(top_25_id, top_25,output_file)
+            top25 = generateTop25(top_25_id, top_25, rosters, week_no, output_file, points)
             top_25_id+=1
             top_25_counter+=1
+            week_no+=1
+            
         #date_strings.append(formatted_date)
         # Increment the current_date by one day
         url_date = f"{base_url}{formatted_date}/all-conf" 
@@ -105,7 +137,7 @@ def generateGames(rosters, output_file):
                         if winner in DRAFTED_TEAMS:
                             game_winner(winner,loser,rosters, output_file)
                             if loser in top25:
-                                top_25_win(winner,loser,rosters, output_file)
+                                top_25_win(winner,loser,rosters, output_file) 
                             #TO ADD
                                 #ROAD CONFERENCE WINS
 

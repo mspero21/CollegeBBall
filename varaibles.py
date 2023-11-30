@@ -65,5 +65,51 @@ team_mappings = {
     "Saint Mary's" : "Saint Mary's (CA)",
     "Connecticut" : "UConn", 
     "James Madison" : "James Madison",
-    "Mississippi State" : "Mississippi St."
+    "Mississippi State" : "Mississippi St.",
+    "BYU" : "BYU",
+    "Colorado State" : "Colorado St."
 } 
+
+conferences_dict = {
+    "Big 12": [
+        "Kansas", "Kansas St", "Texas", "Texas Tech", "Baylor",
+        "Oklahoma", "OK State", "Iowa St", "TCU", "West Virginia"
+    ],
+    "Big East": [
+        "Marquette", "Creighton", "Uconn", "Villanova", "St Johns",
+        "Xavier", "Providence", "Seton Hall", "Georgetown", "Butler",
+        "Depaul"
+    ],
+    "SEC": [
+        "Tennessee", "Texas A&M", "Kentucky", "Florida", "Auburn",
+        "Alabama", "Arkansas", "Mississippi St", "Missouri", "Ole Miss",
+        "LSU", "Georgia", "South Carolina"
+    ],
+    "ACC": [
+        "Duke", "UNC", "Virginia", "Miami", "Clemson", "NC State",
+        "Wake Forest", "Pitt", "Syracuse", "FSU", "Boston College",
+        "Georgia Tech", "Louisville", "Notre Dame"
+    ],
+    "PAC": [
+        "Arizona", "USC", "Colorado", "UCLA", "Oregon", "Stanford",
+        "Utah", "Washington", "California", "Arizona St", "Washington St",
+        "Oregon St"
+    ],
+    "AAC": [
+        "FAU", "Memphis", "UAB", "Tulane", "Wichita St", "USF",
+        "Charlotte", "Temple", "SMU", "East Carolina", "Houston", "UCF",
+        "Cincinnati", "Tulsa"
+    ],
+    "WCC": [
+        "Gonzaga", "St Mary's", "San Fran", "Santa Clara",
+        "Loyola Marymount", "Portland", "Pepperdine", "San Diego", "BYU"
+    ],
+    "Mountain West": [
+        "SDSU", "New Mexico", "Boise St", "Colorado St", "Nevada",
+        "UNLV", "Utah St", "Fresno St", "Wyoming"
+    ],
+    "A10": [
+        "Dayton", "VCU", "Duquesne", "Richmond", "Davidson", "St Joe's",
+        "SLU", "George Mason", "URI", "UMass", "Fordham", "GW", "La Salle"
+    ]
+}
