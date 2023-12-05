@@ -78,22 +78,22 @@ team_mappings = {
 conferences_dict = {
     "Big 12": [
         "Kansas",
-        "Kansas St",
+        "Kansas St.",
         "Texas",
         "Texas Tech",
         "Baylor",
         "Oklahoma",
-        "OK State",
-        "Iowa St",
+        "Oklahoma St.",
+        "Iowa St.",
         "TCU",
         "West Virginia",
     ],
     "Big East": [
         "Marquette",
         "Creighton",
-        "Uconn",
+        "UConn",
         "Villanova",
-        "St Johns",
+        "St. John's (NY)",
         "Xavier",
         "Providence",
         "Seton Hall",
@@ -109,7 +109,7 @@ conferences_dict = {
         "Auburn",
         "Alabama",
         "Arkansas",
-        "Mississippi St",
+        "Mississippi St.",
         "Missouri",
         "Ole Miss",
         "LSU",
@@ -118,9 +118,9 @@ conferences_dict = {
     ],
     "ACC": [
         "Duke",
-        "UNC",
+        "North Carolina",
         "Virginia",
-        "Miami",
+        "Miami (FL)",
         "Clemson",
         "NC State",
         "Wake Forest",
@@ -134,7 +134,7 @@ conferences_dict = {
     ],
     "PAC": [
         "Arizona",
-        "USC",
+        "Southern California",
         "Colorado",
         "UCLA",
         "Oregon",
@@ -144,10 +144,10 @@ conferences_dict = {
         "California",
         "Arizona St",
         "Washington St",
-        "Oregon St",
+        "Oregon St.",
     ],
     "AAC": [
-        "FAU",
+        "Fla. Atlantic",
         "Memphis",
         "UAB",
         "Tulane",
@@ -164,7 +164,7 @@ conferences_dict = {
     ],
     "WCC": [
         "Gonzaga",
-        "St Mary's",
+        "Saint Mary's (CA)",
         "San Fran",
         "Santa Clara",
         "Loyola Marymount",
@@ -174,10 +174,10 @@ conferences_dict = {
         "BYU",
     ],
     "Mountain West": [
-        "SDSU",
+        "San Diego St.",
         "New Mexico",
-        "Boise St",
-        "Colorado St",
+        "Boise St.",
+        "Colorado St.",
         "Nevada",
         "UNLV",
         "Utah St",
@@ -185,19 +185,37 @@ conferences_dict = {
         "Wyoming",
     ],
     "A10": [
-        "Dayton",
-        "VCU",
-        "Duquesne",
-        "Richmond",
-        "Davidson",
-        "St Joe's",
-        "SLU",
         "George Mason",
-        "URI",
         "UMass",
-        "Fordham",
-        "GW",
+        "Dayton",
+        "George Washington",
         "La Salle",
+        "Saint Joseph's",
+        "Duquesne",
+        "St. Bonaventure",
+        "Davidson",
+        "Loyola Chicago",
+        "Rhode Island",
+        "Richmond",
+        "Saint Louis",
+        "Fordham",
+        "VCU",
+    ],
+    "Big 10": [
+        "Michigan",
+        "Michigan St.",
+        "Ohio St.",
+        "Wisconsin",
+        "Indiana",
+        "Purdue",
+        "Maryland",
+        "Rutgers",
+        "Iowa",
+        "Minnesota",
+        "Northwestern",
+        "Nebraska",
+        "Penn State",
+        "Illinois",
     ],
 }
 
@@ -215,7 +233,7 @@ teamsConference = {
     "West Virginia": "Big 12",
     "Marquette": "Big East",
     "Creighton": "Big East",
-    "Uconn": "Big East",
+    "UConn": "Big East",
     "Villanova": "Big East",
     "St Johns": "Big East",
     "Xavier": "Big East",
@@ -241,6 +259,7 @@ teamsConference = {
     "UNC": "ACC",
     "Virginia": "ACC",
     "Miami": "ACC",
+    "Clemson": "ACC",
     "NC State": "ACC",
     "Wake Forest": "ACC",
     "Pitt": "ACC",
@@ -307,15 +326,30 @@ teamsConference = {
     "Fordham": "A10",
     "GW": "A10",
     "La Salle": "A10",
+    "Michigan": "Big 10",
+    "Michigan St": "Big 10",
+    "Ohio State": "Big 10",
+    "Wisconsin": "Big 10",
+    "Indiana": "Big 10",
+    "Purdue": "Big 10",
+    "Maryland": "Big 10",
+    "Rutgers": "Big 10",
+    "Iowa": "Big 10",
+    "Minnesota": "Big 10",
+    "Northwestern": "Big 10",
+    "Nebraska": "Big 10",
+    "Penn State": "Big 10",
+    "Illinois": "Big 10",
 }
 
-# def create_team_to_conference_dict(conferences_dict):
-#     team_to_conference_dict = {}
-#     for conference, teams in conferences_dict.items():
-#         for team in teams:
-#             team_to_conference_dict[team] = conference
-#     return team_to_conference_dict
 
-# # Use the function to create the new dictionary
-# team_to_conference = create_team_to_conference_dict(conferences_dict)
-# print(team_to_conference)
+def create_team_to_conference_dict():
+    team_to_conference_dict = {}
+    for conference, teams in conferences_dict.items():
+        for team in teams:
+            team_to_conference_dict[team] = conference
+    return team_to_conference_dict
+
+
+# Use the function to create the new dictionary
+team_to_conference = create_team_to_conference_dict()

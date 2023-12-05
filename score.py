@@ -2,7 +2,10 @@ import requests
 import datetime
 import json
 from bs4 import BeautifulSoup
-from varaibles import drafted_teams, team_mappings, teamsConference, conferences_dict
+from varaibles import drafted_teams, team_mappings, create_team_to_conference_dict, conferences_dict
+
+teamsConference = create_team_to_conference_dict()
+
 import re
 
 # Send an HTTP GET request to the URL
@@ -14,18 +17,18 @@ DRAFTED_TEAMS = drafted_teams
 TEAM_MAPPINGS = team_mappings
 START_DATE = datetime.date(2023, 11, 6)
 
-TOP_25_DATES = []
 # found_teams = []
 # missing_teams = []
 
 
 def generateTop25Dates():
+    top25Dates = []
     start_date = datetime.datetime.strptime("2023/11/06", "%Y/%m/%d")
-    TOP_25_DATES.append(start_date.strftime("%Y/%m/%d"))
+    top25Dates.append(start_date.strftime("%Y/%m/%d"))
     for i in range(25):
         start_date += datetime.timedelta(days=7)
-        TOP_25_DATES.append(start_date.strftime("%Y/%m/%d"))
-    print(TOP_25_DATES)
+        top25Dates.append(start_date.strftime("%Y/%m/%d"))
+    return top25Dates
 
 
 def initialze_score(output_file):
@@ -39,8 +42,8 @@ def generateTeams():
     with open("rosters.json", "r") as json_file:
         # load data into json_data object
         rosters = json.load(json_file)
-        print(rosters)
 
+    #Random test to see if rosters looking alright
     if "TCU" in rosters["Dunne"]:
         print("Rosters successfully created")
         return rosters
@@ -51,6 +54,7 @@ def generateTeams():
 
 def generateTop25(id, top_25, rosters, week_no, output_file, points):
     top_25 = []
+    #Creates the URL to look at for top 25
     top25URL = (
         f"https://www.collegepollarchive.com/mbasketball/ap/seasons.cfm?appollid={id}"
     )
@@ -62,25 +66,35 @@ def generateTop25(id, top_25, rosters, week_no, output_file, points):
         first_rows = soup.find_all("table")
         rows = first_rows[4].find_all("tr")
         val = 1
+        #Loops through the 25 rows we need to find 
         for num in range(8, 33):
+            #Some ugly work of getting the team from the website into the format we want
             team_rows = rows[num].find_all("td")
             team = team_rows[2].text
             team_final_unstripped = re.sub(r"\s*\([^)]*\)", "", team)
             team_final = team_final_unstripped.strip()
             if team_final not in DRAFTED_TEAMS:
                 team_final = team_mappings[team_final]
+
+            #Adds the team to the top 25 list
             top_25.append(team_final)
+            
+            #Checks to see if we are calculating points for standings
             if points:
                 if val < 26:
+                    #On the first loop
                     if val == 1:
+                        #Checks to makes sure the No. 1 team has been drafted
                         if team_final in DRAFTED_TEAMS:
+                            #Adds the points to the team for having No. 1 rank
                             for name in TEAM_NAMES:
                                 if team_final in rosters[name]:
-                                    SCORES[name] = SCORES[name] + 1 d
+                                    SCORES[name] = SCORES[name] + 1 
                                     print(
                                         f"{name} has {team_final} who is ranked No. 1 for week {week_no}...1 point awarded",
                                         file=output_file,
                                     )
+                    #Same process as above but now for 2-15
                     if val < 16:
                         if team_final in DRAFTED_TEAMS:
                             for name in TEAM_NAMES:
@@ -90,6 +104,7 @@ def generateTop25(id, top_25, rosters, week_no, output_file, points):
                                         f"{name} has {team_final} who is ranked No. {val} for week {week_no}.....3 points awarded",
                                         file=output_file,
                                     )
+                    #Same process as above but now for 15-25
                     if val >= 16 and val <= 25:
                         if team_final in DRAFTED_TEAMS:
                             for name in TEAM_NAMES:
@@ -104,75 +119,89 @@ def generateTop25(id, top_25, rosters, week_no, output_file, points):
     return top_25
 
 
-def generateGames(rosters, output_file):
+def generateScore(rosters, output_file):
+
+    #Finds dates to update top 25 standings
+    top25Dates = generateTop25Dates()
     # Define a list to store the formatted date strings
     date_strings = []
-    # Create the URL strings
+
+    #Some variables we will use for scraping
     base_url = "https://www.ncaa.com/scoreboard/basketball-men/d1/"
     top_25_counter = 0
     top_25_id = 1260
     top_25 = []
-    # Loop through dates
     week_no = 1
+
+    #points will be set to true when we are ready to calculate points for top 25 standings 
     points = False
+
+    #This loops through every day of the season
     looping_date = START_DATE
     while looping_date <= TODAY:
+        #Gets the date into the format we need it in
         formatted_date = looping_date.strftime("%Y/%m/%d")
+
+        #We set points to true once week 4 hits
         if week_no == 4:
             points = True
-        if formatted_date in TOP_25_DATES:
+        
+        #Checks to see if we need to update the top 25 stnadings
+        if formatted_date in top25Dates:
+
+            #Creates a new top 25
             top_25 = []
             top25 = generateTop25(
                 top_25_id, top_25, rosters, week_no, output_file, points
             )
+
+            #Updates the varaibles we need for url work
             top_25_id += 1
             top_25_counter += 1
             week_no += 1
-
-        # date_strings.append(formatted_date)
-        # Increment the current_date by one day
+        
+        #Gets the date into a url format
         url_date = f"{base_url}{formatted_date}/all-conf"
         print(f"Scoring games from this link: {url_date}", file=output_file)
         response = requests.get(url_date)
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, "html.parser")
+            #Gets all the games of a day
             games = soup.find("div", class_="gamePod_content-pod_container").find_all(
                 "div", class_="gamePod"
             )
+            #Loops through every game
             for game in games:
+                #Makes sure there is a winner
                 if game.find("li", class_="winner") is not None:
+                    #Work to find the winner and loser and home and away team from the game
                     winner = (
                         game.find("li", class_="winner")
                         .find("span", class_="gamePod-game-team-name")
                         .text
                     )
                     teams = game.find_all("li")
-                    home_team = (
+                    away_team = (
                         teams[0].find("span", class_="gamePod-game-team-name").text
                     )
-                    away_team = (
+                    home_team = (
                         teams[1].find("span", class_="gamePod-game-team-name").text
                     )
-                    loser = home_team if away_team == winner else away_team
+                    loser = away_team if home_team == winner else home_team
+                    #Makes sure winner is drafted by one of us 
                     if winner in DRAFTED_TEAMS:
+                        #Calculates points for normal win
                         conference = False
                         game_winner(winner, loser, rosters,conference, output_file)
+                        #Awards points if the team that lost is in the top 25
                         if loser in top25:
                             top_25_win(winner, loser, rosters, output_file)
+                        #Awards points for a road conference win 
                         if winner == away_team:
-                            if teamsConference[winner] == teamsConference[loser]:
+                            if loser in conferences_dict[teamsConference[winner]]:
                                 conference = True
                                 game_winner(winner, loser, rosters, conference, output_file)
-
-                        # TO ADD
-                        # ROAD CONFERENCE WINS
-
-                        # Uncomment this code to track teams that are being found for debugging purposes
-                        # if winner not in found_teams:
-                        #     found_teams.append(winner)
-                        # if loser not in found_teams:
-                        #     found_teams.append(loser)
         else:
             print(
                 "Failed to retrieve the web page. Status code:",
@@ -184,14 +213,17 @@ def generateGames(rosters, output_file):
 
 
 def game_winner(winner, loser, rosters,  conference, output_file):
+    #Loops through our roster to add points to correct team
     for roster in TEAM_NAMES:
         if winner in rosters[roster]:
+            #Adds bonus points for a conference win
             if conference:
                 print(
                     f"{roster} had {winner} who won on the road against {loser}... One and a half Point awarded",
                     file=output_file,
                 )
                 SCORES[roster] = SCORES[roster] + 1.5
+            #Adds points for win
             else:
                 print(
                     f"{roster} had {winner} who beat {loser}... One Point awarded",
@@ -201,6 +233,7 @@ def game_winner(winner, loser, rosters,  conference, output_file):
 
 
 def top_25_win(winner, loser, rosters, output_file):
+    #Loops through our teams to add points to right team for a top 25 win
     for roster in TEAM_NAMES:
         if winner in rosters[roster]:
             print(
@@ -212,31 +245,20 @@ def top_25_win(winner, loser, rosters, output_file):
             SCORES[roster] = newValue
 
 
-# def find_missing_teams(teams):
-#     for roster in TEAM_NAMES:
-#         for team in teams[roster]:
-#             if team not in found_teams:
-#                 missing_teams.append(team)
-
-
 # Define the main function that calls my_function
 def main():
-    generateTop25Dates()
+    #Opens scores.txt file to write to
     with open("scores.txt", "w") as output_file:
+        #Sets score to zero
         print("Set scores to 0", file=output_file)
         initialze_score(output_file)
         print("Generating Scores", file=output_file)
+
+        #Creates our teams
         teams = generateTeams()
-        print("made team")
-        games = generateGames(teams, output_file)
-        # TO ADD
-        # RANKINGS AFTER WEEK 3
-        # CONFERENCE CHAMPS
-        # REGULAR SEASON CONFERENCE CHAMPS
-        # LAST PLACE FINISH
-        # POY
-        # Uncomment to find missing teams
-        # find_missing_teams(teams)
+
+        #Generates the score 
+        generateScore(teams, output_file)
         print(SCORES, file=output_file)
 
 
