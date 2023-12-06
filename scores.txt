@@ -451,4 +451,23 @@ Jack had Purdue who beat Iowa... One Point awarded
 Silv had Alabama who beat Arkansas St.... One Point awarded
 Sully had Arkansas who beat Furman... One Point awarded
 Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/12/05/all-conf
-{'Dunne': 80, 'Jack': 141, 'Mike': 131, 'Silv': 123, 'Sully': 105.5}
+Sully had Tennessee who beat George Mason... One Point awarded
+Sully had Illinois who beat Fla. Atlantic... One Point awarded
+Sully had Illinois who beat Fla. Atlantic who was ranked in top 25... Five Points awarded
+Mike had Oklahoma who beat Providence... One Point awarded
+Silv had Florida who beat Merrimack... One Point awarded
+Mike had Wisconsin who beat Michigan St.... One Point awarded
+Mike had Wisconsin who won on the road against Michigan St.... One and a half Point awarded
+Mike had Kansas St. who beat Villanova... One Point awarded
+Mike had Virginia who beat N.C. Central... One Point awarded
+Silv had Kansas who beat Kansas City... One Point awarded
+Sully had Ole Miss who beat Mount St. Mary's... One Point awarded
+Silv had Boise St. who beat North Texas... One Point awarded
+Mike had UConn who beat North Carolina... One Point awarded
+Mike had UConn who beat North Carolina who was ranked in top 25... Five Points awarded
+Silv had Gonzaga who beat Ark.-Pine Bluff... One Point awarded
+Dunne had Indiana who beat Michigan... One Point awarded
+Dunne had Indiana who won on the road against Michigan... One and a half Point awarded
+Sully had Baylor who beat Seton Hall... One Point awarded
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/12/06/all-conf
+{'Dunne': 82.5, 'Jack': 141, 'Mike': 142.5, 'Silv': 127, 'Sully': 114.5}
