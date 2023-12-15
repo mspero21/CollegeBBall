@@ -1,11 +1,14 @@
 import requests
+import urllib.request
+from requests import Session
 import datetime
 import json
+import re
 from bs4 import BeautifulSoup
 from varaibles import drafted_teams, team_mappings, create_team_to_conference_dict, conferences_dict
 
 teamsConference = create_team_to_conference_dict()
-
+session = Session()
 import re
 
 # Send an HTTP GET request to the URL
@@ -23,11 +26,12 @@ START_DATE = datetime.date(2023, 11, 6)
 
 def generateTop25Dates():
     top25Dates = []
-    start_date = datetime.datetime.strptime("2023/11/06", "%Y/%m/%d")
-    top25Dates.append(start_date.strftime("%Y/%m/%d"))
+    start_date = datetime.datetime.strptime("06/11", "%d/%m")
+    top25Dates.append(start_date.strftime("%d/%m"))
     for i in range(25):
         start_date += datetime.timedelta(days=7)
-        top25Dates.append(start_date.strftime("%Y/%m/%d"))
+        top25Dates.append(start_date.strftime("%d/%m"))
+    print(top25Dates)
     return top25Dates
 
 
@@ -74,6 +78,7 @@ def generateTop25(id, top_25, rosters, week_no, output_file, points):
             team_final_unstripped = re.sub(r"\s*\([^)]*\)", "", team)
             team_final = team_final_unstripped.strip()
             if team_final not in DRAFTED_TEAMS:
+                print(team_final)
                 team_final = team_mappings[team_final]
 
             #Adds the team to the top 25 list
@@ -115,7 +120,7 @@ def generateTop25(id, top_25, rosters, week_no, output_file, points):
                                         file=output_file,
                                     )
                 val += 1
-
+    print(top_25)
     return top_25
 
 
@@ -133,22 +138,34 @@ def generateScore(rosters, output_file):
     top_25 = []
     week_no = 1
 
+    # # Set the start date as November 1st
+    # start_date = datetime.date(2023, 11, 6)
+
+    # # Get the current date
+    # current_date = datetime.date.today()
+
+    # # Loop through the dates
+    # while start_date <= current_date:
+    #     print(start_date.strftime('%d/%m'))
+    #     start_date += datetime.timedelta(days=1)
+
     #points will be set to true when we are ready to calculate points for top 25 standings 
     points = False
-
+    formatted_date_counter = 0
     #This loops through every day of the season
     looping_date = START_DATE
-    while looping_date <= TODAY:
+    while looping_date < TODAY:
         #Gets the date into the format we need it in
-        formatted_date = looping_date.strftime("%Y/%m/%d")
+        formatted_date = looping_date.strftime("%d/%m")
+        print(formatted_date)
+        
 
         #We set points to true once week 4 hits
         if week_no == 4:
             points = True
-        
         #Checks to see if we need to update the top 25 stnadings
         if formatted_date in top25Dates:
-
+            formatted_date_counter+=1
             #Creates a new top 25
             top_25 = []
             top25 = generateTop25(
@@ -162,54 +179,57 @@ def generateScore(rosters, output_file):
         
         #Gets the date into a url format
         url_date = f"{base_url}{formatted_date}/all-conf"
-        print(f"Scoring games from this link: {url_date}", file=output_file)
-        response = requests.get(url_date)
+        response = requests.get(f"https://sports.yahoo.com/college-basketball/scoreboard/?confId=all&schedState=2&dateRange=2023-{looping_date.strftime('%m')}-{looping_date.strftime('%d')}")
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, "html.parser")
-            #Gets all the games of a day
-            games = soup.find("div", class_="gamePod_content-pod_container").find_all(
-                "div", class_="gamePod"
-            )
-            #Loops through every game
-            for game in games:
-                #Makes sure there is a winner
-                if game.find("li", class_="winner") is not None:
-                    #Work to find the winner and loser and home and away team from the game
-                    winner = (
-                        game.find("li", class_="winner")
-                        .find("span", class_="gamePod-game-team-name")
-                        .text
-                    )
-                    teams = game.find_all("li")
-                    away_team = (
-                        teams[0].find("span", class_="gamePod-game-team-name").text
-                    )
-                    home_team = (
-                        teams[1].find("span", class_="gamePod-game-team-name").text
-                    )
-                    loser = away_team if home_team == winner else home_team
-                    #Makes sure winner is drafted by one of us 
-                    if winner in DRAFTED_TEAMS:
-                        #Calculates points for normal win
-                        conference = False
-                        game_winner(winner, loser, rosters,conference, output_file)
-                        #Awards points if the team that lost is in the top 25
-                        if loser in top25:
-                            top_25_win(winner, loser, rosters, output_file)
-                        #Awards points for a road conference win 
-                        if winner == away_team:
-                            if loser in conferences_dict[teamsConference[winner]]:
-                                conference = True
-                                game_winner(winner, loser, rosters, conference, output_file)
+            scoreboard = soup.find('div', id="scoreboard-group-2")
+            games = scoreboard.find_next('ul').find_all('li')
+            for game in games[::3]:
+                teams = game.find_all('li',class_='team')
+                count = 0
+                for team in teams:
+                    if count ==0:
+                        divs = team.find_all('div')
+                        away_team = text_without_numbers = re.sub(r'\(\d+\)', '', divs[2].text).strip()
+                        away_score = int(divs[4].text.strip())
+                        count +=1
+                    else:
+                        divs = team.find_all('div')
+                        home_team = text_without_numbers = re.sub(r'\(\d+\)', '', divs[2].text).strip()
+                        home_score = int(divs[4].text.strip())
+                winner = away_team if away_score > home_score else home_team
+                loser = home_team if away_team == winner else away_team
+                if winner in team_mappings:
+                    winner = team_mappings[winner]
+                if loser in team_mappings:
+                    loser = team_mappings[loser]
+                #Makes sure winner is drafted by one of us 
+                if winner in DRAFTED_TEAMS:
+                    #Calculates points for normal win
+                    conference = False
+                    game_winner(winner, loser, rosters,conference, output_file)
+                    if winner == "Kentucky":
+                        print(loser)
+                    #Awards points if the team that lost is in the top 25
+                    if loser in top25:
+                        top_25_win(winner, loser, rosters, output_file)
+                    #Awards points for a road conference win 
+                    if winner == away_team:
+                        if loser in conferences_dict[teamsConference[winner]]:
+                            conference = True
+                            game_winner(winner, loser, rosters, conference, output_file)
+                # else:
+                    # print("CANT FIND TEAM")
+                    # print(winner)
         else:
             print(
                 "Failed to retrieve the web page. Status code:",
                 response.status_code,
                 file=output_file,
             )
-            exit()
         looping_date += datetime.timedelta(days=1)
+    print(formatted_date_counter)
 
 
 def game_winner(winner, loser, rosters,  conference, output_file):
