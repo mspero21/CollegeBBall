@@ -1,6 +1,7 @@
 Set scores to 0
 {'Dunne': 0, 'Jack': 0, 'Mike': 0, 'Silv': 0, 'Sully': 0}
 Generating Scores
+<<<<<<< HEAD
 Jack had Oregon who beat Georgia... One Point awarded
 Mike had UConn who beat Northern Arizona... One Point awarded
 Jack had Purdue who beat Samford... One Point awarded
@@ -538,3 +539,7 @@ Mike had Tulane who beat Furman... One Point awarded
 Mike had Wisconsin who beat Jacksonville State... One Point awarded
 Jack had Marquette who beat St. Thomas... One Point awarded
 {'Dunne': 104.0, 'Jack': 181, 'Mike': 171.5, 'Silv': 150, 'Sully': 153.5}
+=======
+Scoring games from this link: https://www.ncaa.com/scoreboard/basketball-men/d1/2023/11/06/all-conf
+Failed to retrieve the web page. Status code: 403
+>>>>>>> 5dfab360580a5ee2416aa94d9e786d52717cf62e
