@@ -541,4 +541,37 @@ Sully had Colorado who beat Northern Colorado... One Point awarded
 Sully had New Mexico who beat New Mexico State... One Point awarded
 Mike had UConn who beat Gonzaga... One Point awarded
 Mike had UConn who beat Gonzaga who was ranked in top 25... Five Points awarded
-{'Dunne': 104.0, 'Jack': 181, 'Mike': 177.5, 'Silv': 150, 'Sully': 155.5}
+Silv had Miami who beat La Salle... One Point awarded
+Mike had Texas who beat LSU... One Point awarded
+Silv had Kansas who beat Indiana... One Point awarded
+Jack had Rutgers who beat LIU... One Point awarded
+Mike had Providence who beat Sacred Heart... One Point awarded
+Mike had Michigan State who beat Baylor... One Point awarded
+Mike had Michigan State who beat Baylor who was ranked in top 25... Five Points awarded
+Mike had Tulane who beat Southern University... One Point awarded
+Dunne had VCU who beat Temple... One Point awarded
+Dunne had Georgetown who beat Notre Dame... One Point awarded
+Dunne had Michigan who beat Eastern Michigan... One Point awarded
+Jack had Houston who beat Texas A&M... One Point awarded
+Sully had Memphis who beat Clemson... One Point awarded
+Sully had Memphis who beat Clemson who was ranked in top 25... Five Points awarded
+Silv had Ohio State who beat UCLA... One Point awarded
+Dunne had St. John's who beat Fordham... One Point awarded
+Silv had Florida Atlantic who beat St. Bonaventure... One Point awarded
+Jack had Purdue who beat Arizona... One Point awarded
+Jack had Purdue who beat Arizona who was ranked in top 25... Five Points awarded
+Sully had Northwestern who beat DePaul... One Point awarded
+Dunne had Kentucky who beat North Carolina... One Point awarded
+Dunne had Kentucky who beat North Carolina who was ranked in top 25... Five Points awarded
+Sully had Arkansas who beat Lipscomb... One Point awarded
+Mike had Virginia who beat Northeastern... One Point awarded
+Mike had Dayton who beat Cincinnati... One Point awarded
+Dunne had Saint Mary's who beat UNLV... One Point awarded
+Sully had Ole Miss who beat California... One Point awarded
+Dunne had Texas Tech who beat Vanderbilt... One Point awarded
+Sully had Xavier who beat Winthrop... One Point awarded
+Sully had Creighton who beat Alabama... One Point awarded
+Mike had Oklahoma who beat Green Bay... One Point awarded
+Sully had Tennessee who beat North Carolina State... One Point awarded
+Dunne had TCU who beat Arizona State... One Point awarded
+{'Dunne': 117.0, 'Jack': 189, 'Mike': 189.5, 'Silv': 154, 'Sully': 167.5}
