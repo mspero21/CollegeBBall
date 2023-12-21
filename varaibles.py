@@ -73,13 +73,15 @@ team_mappings = {
     "Kansas St." : "Kansas State",
     "BYU": "BYU",
     "Colorado State": "Colorado State",
+    "Mississippi" : "Ole Miss"
 }
 
 new_mappings = {
     "Ohio St." : "Ohio State",
     "Fla. Atlantic": "Florida Atlantic",
     "Mississippi St." : "Mississippi State",
-    "Colorado St."    :  "Colorado State"
+    "Colorado St."    :  "Colorado State",
+    "Mississippi" : "Ole Miss"
 }
 
 conferences_dict = {
