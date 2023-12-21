@@ -616,10 +616,18 @@ Mike had Providence who beat Marquette... One Point awarded
 Mike had Providence who beat Marquette who was ranked in top 25... Five Points awarded
 Mike had San Diego State who beat Saint Katherine... One Point awarded
 Dunne had Saint Mary's who beat Middle Tennessee... One Point awarded
+Silv had Oklahoma State who beat Wofford... One Point awarded
+Mike had Dayton who beat Oakland... One Point awarded
+Dunne had Duke who beat Baylor... One Point awarded
+Dunne had Duke who beat Baylor who was ranked in top 25... Five Points awarded
+Dunne had St. John's who beat Xavier... One Point awarded
 Sully had Northwestern who beat Arizona State... One Point awarded
-Sully had Creighton who beat Villanova... One Point awarded
+Silv had Villanova who beat Creighton... One Point awarded
+Silv had Villanova who beat Creighton who was ranked in top 25... Five Points awarded
+Silv had Villanova who won on the road against Creighton... One and a half Point awarded
 Silv had Gonzaga who beat Jackson State... One Point awarded
 Sully had New Mexico who beat UC Irvine... One Point awarded
 Jack had North Carolina who beat Oklahoma... One Point awarded
 Jack had North Carolina who beat Oklahoma who was ranked in top 25... Five Points awarded
-{'Dunne': 124.0, 'Jack': 213, 'Mike': 209.5, 'Silv': 168, 'Sully': 192.5}
+Mike had Arizona who beat Alabama... One Point awarded
+{'Dunne': 131.0, 'Jack': 213, 'Mike': 211.5, 'Silv': 176.5, 'Sully': 191.5}
