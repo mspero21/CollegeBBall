@@ -647,4 +647,17 @@ Mike had Kansas State who beat Wichita State... One Point awarded
 Jack had Oregon who beat Kent State... One Point awarded
 Mike had San Diego State who beat Stanford... One Point awarded
 Dunne had Saint Mary's who beat Northern Kentucky... One Point awarded
-{'Dunne': 136.0, 'Jack': 216, 'Mike': 214.5, 'Silv': 179.5, 'Sully': 194.5}
+Mike had Texas who beat Texas A&M-Corpus Christi... One Point awarded
+Silv had Florida who beat Grambling State... One Point awarded
+Jack had Clemson who beat Queens University... One Point awarded
+Sully had Baylor who beat Mississippi Valley State... One Point awarded
+Jack had Marquette who beat Georgetown... One Point awarded
+Sully had St. Bonaventure who beat Binghamton... One Point awarded
+Dunne had VCU who beat Maryland-Eastern Shore... One Point awarded
+Jack had Auburn who beat Alabama State... One Point awarded
+Silv had Kansas who beat Yale... One Point awarded
+Jack had Texas A&M who beat Houston Christian... One Point awarded
+Mike had Wisconsin who beat Chicago State... One Point awarded
+Sully had Illinois who beat Missouri... One Point awarded
+Jack had Maryland who beat UCLA... One Point awarded
+{'Dunne': 137.0, 'Jack': 221, 'Mike': 216.5, 'Silv': 181.5, 'Sully': 197.5}
