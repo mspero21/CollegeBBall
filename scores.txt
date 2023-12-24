@@ -668,13 +668,7 @@ Silv had Florida Atlantic who beat Arizona... One Point awarded
 Silv had Florida Atlantic who beat Arizona who was ranked in top 25... Five Points awarded
 Silv had Alabama who beat Eastern Kentucky... One Point awarded
 Silv had Villanova who beat DePaul... One Point awarded
-<<<<<<< HEAD
 Silv had Villanova who won on the road against DePaul... One and a half Point awarded
 Sully had Memphis who beat Vanderbilt... One Point awarded
 Mike had UConn who beat St. John's... One Point awarded
 {'Dunne': 137.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 191.0, 'Sully': 200.5}
-=======
-Sully had Memphis who beat Vanderbilt... One Point awarded
-Mike had UConn who beat St. John's... One Point awarded
-{'Dunne': 137.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 189.5, 'Sully': 200.5}
->>>>>>> e781c9f78953a02fa3e28cc763b1a3e5378fe6d5
