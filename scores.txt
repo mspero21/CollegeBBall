@@ -660,4 +660,14 @@ Jack had Texas A&M who beat Houston Christian... One Point awarded
 Mike had Wisconsin who beat Chicago State... One Point awarded
 Sully had Illinois who beat Missouri... One Point awarded
 Jack had Maryland who beat UCLA... One Point awarded
-{'Dunne': 137.0, 'Jack': 221, 'Mike': 216.5, 'Silv': 181.5, 'Sully': 197.5}
+Jack had Mississippi State who beat Rutgers... One Point awarded
+Mike had Providence who beat Butler... One Point awarded
+Sully had Ole Miss who beat Southern Miss... One Point awarded
+Sully had Xavier who beat Seton Hall... One Point awarded
+Silv had Florida Atlantic who beat Arizona... One Point awarded
+Silv had Florida Atlantic who beat Arizona who was ranked in top 25... Five Points awarded
+Silv had Alabama who beat Eastern Kentucky... One Point awarded
+Silv had Villanova who beat DePaul... One Point awarded
+Sully had Memphis who beat Vanderbilt... One Point awarded
+Mike had UConn who beat St. John's... One Point awarded
+{'Dunne': 137.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 189.5, 'Sully': 200.5}
