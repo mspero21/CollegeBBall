@@ -205,12 +205,15 @@ def generateScore(rosters, output_file):
                 if loser in team_mappings:
                     loser = team_mappings[loser]
                 #Makes sure winner is drafted by one of us 
+                # print(f"winner: {winner}")
+                # print(f"loser: {loser}")
+                # print(f"home team: {home_team}")
+                # print(f"away team: {away_team}")
+                # print("")
                 if winner in DRAFTED_TEAMS:
                     #Calculates points for normal win
                     conference = False
                     game_winner(winner, loser, rosters,conference, output_file)
-                    if winner == "Kentucky":
-                        print(loser)
                     #Awards points if the team that lost is in the top 25
                     if loser in top25:
                         top_25_win(winner, loser, rosters, output_file)

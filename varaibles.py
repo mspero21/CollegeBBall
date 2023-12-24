@@ -108,7 +108,7 @@ conferences_dict = {
         "Seton Hall",
         "Georgetown",
         "Butler",
-        "Depaul",
+        "DePaul",
     ],
     "SEC": [
         "Tennessee",
@@ -250,7 +250,7 @@ teamsConference = {
     "Seton Hall": "Big East",
     "Georgetown": "Big East",
     "Butler": "Big East",
-    "Depaul": "Big East",
+    "DePaul": "Big East",
     "Tennessee": "SEC",
     "Texas A&M": "SEC",
     "Kentucky": "SEC",
