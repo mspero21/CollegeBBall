@@ -671,4 +671,5 @@ Silv had Villanova who beat DePaul... One Point awarded
 Silv had Villanova who won on the road against DePaul... One and a half Point awarded
 Sully had Memphis who beat Vanderbilt... One Point awarded
 Mike had UConn who beat St. John's... One Point awarded
-{'Dunne': 137.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 191.0, 'Sully': 200.5}
+Dunne had TCU who beat Hawai'i... One Point awarded
+{'Dunne': 138.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 191.0, 'Sully': 200.5}
