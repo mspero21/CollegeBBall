@@ -695,4 +695,5 @@ Sully has Creighton who is ranked No. 22 for week 8.....1 point awarded
 Mike has Wisconsin who is ranked No. 23 for week 8.....1 point awarded
 Sully has Ole Miss who is ranked No. 24 for week 8.....1 point awarded
 Mike has Providence who is ranked No. 25 for week 8.....1 point awarded
-{'Dunne': 142.0, 'Jack': 236, 'Mike': 230.5, 'Silv': 200.0, 'Sully': 210.5}
+Mike had Virginia who beat Morgan State... One Point awarded
+{'Dunne': 142.0, 'Jack': 236, 'Mike': 231.5, 'Silv': 200.0, 'Sully': 210.5}
