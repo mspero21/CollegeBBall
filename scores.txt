@@ -696,4 +696,10 @@ Mike has Wisconsin who is ranked No. 23 for week 8.....1 point awarded
 Sully has Ole Miss who is ranked No. 24 for week 8.....1 point awarded
 Mike has Providence who is ranked No. 25 for week 8.....1 point awarded
 Mike had Virginia who beat Morgan State... One Point awarded
-{'Dunne': 142.0, 'Jack': 236, 'Mike': 231.5, 'Silv': 200.0, 'Sully': 210.5}
+Jack had Maryland who beat Coppin State... One Point awarded
+Mike had Oklahoma who beat Central Arkansas... One Point awarded
+Dunne had Texas Tech who beat Sam Houston... One Point awarded
+Jack had Oregon who beat USC... One Point awarded
+Silv had UCLA who beat Oregon State... One Point awarded
+Silv had UCLA who won on the road against Oregon State... One and a half Point awarded
+{'Dunne': 143.0, 'Jack': 238, 'Mike': 232.5, 'Silv': 202.5, 'Sully': 210.5}
