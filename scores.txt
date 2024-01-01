@@ -741,4 +741,10 @@ Sully had Memphis who beat Austin Peay... One Point awarded
 Silv had Ohio State who beat West Virginia... One Point awarded
 Jack had Texas A&M who beat Prairie View A&M... One Point awarded
 Jack had Auburn who beat Chattanooga... One Point awarded
-{'Dunne': 150.0, 'Jack': 253, 'Mike': 245.0, 'Silv': 208.5, 'Sully': 217.5}
+Silv had Iowa State who beat New Hampshire... One Point awarded
+Sully had Colorado who beat Washington State... One Point awarded
+Jack had Mississippi State who beat Bethune-Cookman... One Point awarded
+Mike had Oklahoma who beat Monmouth... One Point awarded
+Silv had Oklahoma State who beat South Carolina State... One Point awarded
+Sully had Ole Miss who beat Bryant... One Point awarded
+{'Dunne': 150.0, 'Jack': 254, 'Mike': 246.0, 'Silv': 210.5, 'Sully': 219.5}
