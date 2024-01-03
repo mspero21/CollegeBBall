@@ -716,7 +716,7 @@ Silv had Boise State who beat Utah Valley... One Point awarded
 Sully had Colorado who beat Washington... One Point awarded
 Mike had San Diego State who beat Gonzaga... One Point awarded
 Mike had San Diego State who beat Gonzaga who was ranked in top 25... Five Points awarded
-Sully had Illinois who beat Fairleigh Dickinson... One Point awarded
+Sully had Illinois who beat FDU... One Point awarded
 Sully had New Mexico who beat Eastern New Mexico... One Point awarded
 Mike had Arizona who beat California... One Point awarded
 Mike had Arizona who won on the road against California... One and a half Point awarded
@@ -779,4 +779,8 @@ Silv had UCLA who beat Washington... One Point awarded
 Silv had UCLA who won on the road against Washington... One and a half Point awarded
 Silv had Ohio State who beat Northwestern... One Point awarded
 Silv had Ohio State who won on the road against Northwestern... One and a half Point awarded
-{'Dunne': 157.0, 'Jack': 269, 'Mike': 266.5, 'Silv': 220.5, 'Sully': 230.5}
+Silv had Oklahoma State who beat West Virginia... One Point awarded
+Jack had Rutgers who beat Purdue... One Point awarded
+Jack had Rutgers who beat Purdue who was ranked in top 25... Five Points awarded
+Jack had Rutgers who won on the road against Purdue... One and a half Point awarded
+{'Dunne': 157.0, 'Jack': 276.5, 'Mike': 266.5, 'Silv': 221.5, 'Sully': 230.5}
