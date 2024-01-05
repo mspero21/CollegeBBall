@@ -799,4 +799,26 @@ Silv had Kansas who beat Texas Tech... One Point awarded
 Silv had Kansas who won on the road against Texas Tech... One and a half Point awarded
 Mike had Wisconsin who beat Minnesota... One Point awarded
 Dunne had Saint Mary's who beat Academy of Art... One Point awarded
-{'Dunne': 159.0, 'Jack': 279.0, 'Mike': 276.0, 'Silv': 231.0, 'Sully': 232.5}
+Silv had Villanova who beat Georgetown... One Point awarded
+Silv had Villanova who won on the road against Georgetown... One and a half Point awarded
+Mike had Dayton who beat Saint Joseph's... One Point awarded
+Jack had Duquesne who beat VCU... One Point awarded
+Jack had Texas A&M who beat Florida... One Point awarded
+Jack had Texas A&M who won on the road against Florida... One and a half Point awarded
+Dunne had Michigan who beat Penn State... One Point awarded
+Silv had Iowa State who beat Oklahoma... One Point awarded
+Silv had Iowa State who beat Oklahoma who was ranked in top 25... Five Points awarded
+Silv had Iowa State who won on the road against Oklahoma... One and a half Point awarded
+Sully had St. Bonaventure who beat George Mason... One Point awarded
+Mike had Tulane who beat Tulsa... One Point awarded
+Sully had Arkansas who beat Missouri... One Point awarded
+Mike had Providence who beat UConn... One Point awarded
+Mike had Providence who beat UConn who was ranked in top 25... Five Points awarded
+Dunne had TCU who beat Baylor... One Point awarded
+Dunne had TCU who beat Baylor who was ranked in top 25... Five Points awarded
+Dunne had TCU who won on the road against Baylor... One and a half Point awarded
+Jack had North Carolina who beat Wake Forest... One Point awarded
+Sully had Northwestern who beat Illinois... One Point awarded
+Sully had Northwestern who beat Illinois who was ranked in top 25... Five Points awarded
+Jack had Clemson who beat Virginia Tech... One Point awarded
+{'Dunne': 167.5, 'Jack': 284.5, 'Mike': 284.0, 'Silv': 241.0, 'Sully': 240.5}
