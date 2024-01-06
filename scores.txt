@@ -821,4 +821,13 @@ Jack had North Carolina who beat Wake Forest... One Point awarded
 Sully had Northwestern who beat Illinois... One Point awarded
 Sully had Northwestern who beat Illinois who was ranked in top 25... Five Points awarded
 Jack had Clemson who beat Virginia Tech... One Point awarded
-{'Dunne': 167.5, 'Jack': 284.5, 'Mike': 284.0, 'Silv': 241.0, 'Sully': 240.5}
+Jack had Rutgers who beat Maryland... One Point awarded
+Silv had Florida Atlantic who beat UAB... One Point awarded
+Jack had Houston who beat SMU... One Point awarded
+Jack had Purdue who beat Ohio State... One Point awarded
+Jack had Purdue who won on the road against Ohio State... One and a half Point awarded
+Sully had Colorado who beat Oregon... One Point awarded
+Silv had UCLA who beat USC... One Point awarded
+Mike had Arizona who beat Washington... One Point awarded
+Silv had Gonzaga who beat San Francisco... One Point awarded
+{'Dunne': 167.5, 'Jack': 289.0, 'Mike': 285.0, 'Silv': 244.0, 'Sully': 241.5}
