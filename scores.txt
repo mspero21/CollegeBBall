@@ -672,4 +672,186 @@ Silv had Villanova who won on the road against DePaul... One and a half Point aw
 Sully had Memphis who beat Vanderbilt... One Point awarded
 Mike had UConn who beat St. John's... One Point awarded
 Dunne had TCU who beat Hawai'i... One Point awarded
-{'Dunne': 138.0, 'Jack': 222, 'Mike': 218.5, 'Silv': 191.0, 'Sully': 200.5}
+Jack has Purdue who is ranked No. 1 for week 8...1 point awarded
+Jack has Purdue who is ranked No. 1 for week 8.....3 points awarded
+Silv has Kansas who is ranked No. 2 for week 8.....3 points awarded
+Jack has Houston who is ranked No. 3 for week 8.....3 points awarded
+Mike has Arizona who is ranked No. 4 for week 8.....3 points awarded
+Mike has UConn who is ranked No. 5 for week 8.....3 points awarded
+Sully has Tennessee who is ranked No. 6 for week 8.....3 points awarded
+Silv has Florida Atlantic who is ranked No. 7 for week 8.....3 points awarded
+Dunne has Kentucky who is ranked No. 8 for week 8.....3 points awarded
+Jack has North Carolina who is ranked No. 9 for week 8.....3 points awarded
+Jack has Marquette who is ranked No. 10 for week 8.....3 points awarded
+Sully has Illinois who is ranked No. 11 for week 8.....3 points awarded
+Mike has Oklahoma who is ranked No. 12 for week 8.....3 points awarded
+Silv has Gonzaga who is ranked No. 13 for week 8.....3 points awarded
+Dunne has Duke who is ranked No. 16 for week 8.....1 point awarded
+Sully has Baylor who is ranked No. 17 for week 8.....1 point awarded
+Jack has Clemson who is ranked No. 18 for week 8.....1 point awarded
+Sully has Memphis who is ranked No. 19 for week 8.....1 point awarded
+Mike has Texas who is ranked No. 21 for week 8.....1 point awarded
+Sully has Creighton who is ranked No. 22 for week 8.....1 point awarded
+Mike has Wisconsin who is ranked No. 23 for week 8.....1 point awarded
+Sully has Ole Miss who is ranked No. 24 for week 8.....1 point awarded
+Mike has Providence who is ranked No. 25 for week 8.....1 point awarded
+Mike had Virginia who beat Morgan State... One Point awarded
+Jack had Maryland who beat Coppin State... One Point awarded
+Mike had Oklahoma who beat Central Arkansas... One Point awarded
+Dunne had Texas Tech who beat Sam Houston... One Point awarded
+Jack had Oregon who beat USC... One Point awarded
+Silv had UCLA who beat Oregon State... One Point awarded
+Silv had UCLA who won on the road against Oregon State... One and a half Point awarded
+Mike had Tulane who beat Dillard... One Point awarded
+Dunne had Indiana who beat Kennesaw State... One Point awarded
+Silv had Miami who beat North Florida... One Point awarded
+Jack had Clemson who beat Radford... One Point awarded
+Dunne had Kentucky who beat Illinois State... One Point awarded
+Jack had Purdue who beat Eastern Kentucky... One Point awarded
+Jack had North Carolina who beat Charleston Southern... One Point awarded
+Sully had Northwestern who beat Jackson State... One Point awarded
+Dunne had Saint Mary's who beat Kent State... One Point awarded
+Mike had Texas who beat UNC Greensboro... One Point awarded
+Silv had Boise State who beat Utah Valley... One Point awarded
+Sully had Colorado who beat Washington... One Point awarded
+Mike had San Diego State who beat Gonzaga... One Point awarded
+Mike had San Diego State who beat Gonzaga who was ranked in top 25... Five Points awarded
+Sully had Illinois who beat FDU... One Point awarded
+Sully had New Mexico who beat Eastern New Mexico... One Point awarded
+Mike had Arizona who beat California... One Point awarded
+Mike had Arizona who won on the road against California... One and a half Point awarded
+Jack had Rutgers who beat Stonehill... One Point awarded
+Dunne had St. John's who beat Hofstra... One Point awarded
+Silv had Florida who beat Quinnipiac... One Point awarded
+Silv had Alabama who beat Liberty... One Point awarded
+Mike had Dayton who beat Longwood... One Point awarded
+Dunne had Duke who beat Queens University... One Point awarded
+Jack had Duquesne who beat Cleary... One Point awarded
+Jack had Marquette who beat Creighton... One Point awarded
+Jack had Marquette who beat Creighton who was ranked in top 25... Five Points awarded
+Mike had Michigan State who beat Indiana State... One Point awarded
+Dunne had VCU who beat Gardner-Webb... One Point awarded
+Dunne had Missouri who beat Central Arkansas... One Point awarded
+Sully had St. Bonaventure who beat Akron... One Point awarded
+Silv had Kansas who beat Wichita State... One Point awarded
+Jack had Oregon who beat UCLA... One Point awarded
+Sully had Arkansas who beat UNC Wilmington... One Point awarded
+Jack had Houston who beat Penn... One Point awarded
+Sully had Memphis who beat Austin Peay... One Point awarded
+Silv had Ohio State who beat West Virginia... One Point awarded
+Jack had Texas A&M who beat Prairie View A&M... One Point awarded
+Jack had Auburn who beat Chattanooga... One Point awarded
+Silv had Iowa State who beat New Hampshire... One Point awarded
+Sully had Colorado who beat Washington State... One Point awarded
+Jack had Mississippi State who beat Bethune-Cookman... One Point awarded
+Mike had Oklahoma who beat Monmouth... One Point awarded
+Silv had Oklahoma State who beat South Carolina State... One Point awarded
+Sully had Ole Miss who beat Bryant... One Point awarded
+Jack has Purdue who is ranked No. 1 for week 9...1 point awarded
+Jack has Purdue who is ranked No. 1 for week 9.....3 points awarded
+Silv has Kansas who is ranked No. 2 for week 9.....3 points awarded
+Jack has Houston who is ranked No. 3 for week 9.....3 points awarded
+Mike has UConn who is ranked No. 4 for week 9.....3 points awarded
+Sully has Tennessee who is ranked No. 5 for week 9.....3 points awarded
+Dunne has Kentucky who is ranked No. 6 for week 9.....3 points awarded
+Jack has Marquette who is ranked No. 7 for week 9.....3 points awarded
+Jack has North Carolina who is ranked No. 8 for week 9.....3 points awarded
+Sully has Illinois who is ranked No. 9 for week 9.....3 points awarded
+Mike has Arizona who is ranked No. 10 for week 9.....3 points awarded
+Mike has Oklahoma who is ranked No. 11 for week 9.....3 points awarded
+Dunne has Duke who is ranked No. 14 for week 9.....3 points awarded
+Sully has Memphis who is ranked No. 15 for week 9.....3 points awarded
+Jack has Clemson who is ranked No. 16 for week 9.....1 point awarded
+Silv has Florida Atlantic who is ranked No. 17 for week 9.....1 point awarded
+Sully has Baylor who is ranked No. 18 for week 9.....1 point awarded
+Mike has Texas who is ranked No. 20 for week 9.....1 point awarded
+Mike has Wisconsin who is ranked No. 21 for week 9.....1 point awarded
+Sully has Ole Miss who is ranked No. 22 for week 9.....1 point awarded
+Mike has Providence who is ranked No. 23 for week 9.....1 point awarded
+Silv has Gonzaga who is ranked No. 24 for week 9.....1 point awarded
+Jack has Auburn who is ranked No. 25 for week 9.....1 point awarded
+Mike had Texas who beat Texas-Arlington... One Point awarded
+Dunne had Texas Tech who beat North Alabama... One Point awarded
+Dunne had TCU who beat Texas A&M-Commerce... One Point awarded
+Mike had UConn who beat DePaul... One Point awarded
+Silv had Florida Atlantic who beat East Carolina... One Point awarded
+Sully had Creighton who beat Georgetown... One Point awarded
+Sully had Creighton who won on the road against Georgetown... One and a half Point awarded
+Jack had Purdue who beat Maryland... One Point awarded
+Jack had Purdue who won on the road against Maryland... One and a half Point awarded
+Jack had North Carolina who beat Pittsburgh... One Point awarded
+Sully had Tennessee who beat Norfolk State... One Point awarded
+Mike had Wisconsin who beat Iowa... One Point awarded
+Sully had Baylor who beat Cornell... One Point awarded
+Mike had Kansas State who beat Chicago State... One Point awarded
+Dunne had St. John's who beat Butler... One Point awarded
+Jack had Auburn who beat Penn... One Point awarded
+Dunne had Duke who beat Syracuse... One Point awarded
+Sully had Illinois who beat Northwestern... One Point awarded
+Mike had Dayton who beat Davidson... One Point awarded
+Mike had Dayton who won on the road against Davidson... One and a half Point awarded
+Silv had Ohio State who beat Rutgers... One Point awarded
+Silv had Oklahoma State who beat Chicago State... One Point awarded
+Mike had Virginia who beat Louisville... One Point awarded
+Silv had Miami who beat Clemson... One Point awarded
+Silv had Miami who beat Clemson who was ranked in top 25... Five Points awarded
+Silv had Villanova who beat Xavier... One Point awarded
+Mike had Tulane who beat Rice... One Point awarded
+Sully had St. Bonaventure who beat VCU... One Point awarded
+Sully had St. Bonaventure who won on the road against VCU... One and a half Point awarded
+Dunne had USC who beat California... One Point awarded
+Mike had San Diego State who beat Fresno State... One Point awarded
+Mike had Michigan State who beat Penn State... One Point awarded
+Sully had Memphis who beat Tulsa... One Point awarded
+Sully had Memphis who won on the road against Tulsa... One and a half Point awarded
+Silv had Gonzaga who beat Pepperdine... One Point awarded
+Jack had Oregon who beat Washington... One Point awarded
+Jack had Oregon who won on the road against Washington... One and a half Point awarded
+Mike had Arizona who beat Colorado... One Point awarded
+Dunne had Saint Mary's who beat San Diego... One Point awarded
+Dunne had Saint Mary's who won on the road against San Diego... One and a half Point awarded
+Mike had UConn who beat Butler... One Point awarded
+Mike had UConn who won on the road against Butler... One and a half Point awarded
+Jack had Purdue who beat Illinois... One Point awarded
+Jack had Purdue who beat Illinois who was ranked in top 25... Five Points awarded
+Silv had Boise State who beat San Jose State... One Point awarded
+Jack had North Carolina who beat Clemson... One Point awarded
+Jack had North Carolina who beat Clemson who was ranked in top 25... Five Points awarded
+Jack had North Carolina who won on the road against Clemson... One and a half Point awarded
+Dunne had Georgetown who beat DePaul... One Point awarded
+Dunne had Kentucky who beat Florida... One Point awarded
+Dunne had Kentucky who won on the road against Florida... One and a half Point awarded
+Dunne had St. John's who beat Villanova... One Point awarded
+Dunne had St. John's who won on the road against Villanova... One and a half Point awarded
+Jack had Auburn who beat Arkansas... One Point awarded
+Jack had Auburn who won on the road against Arkansas... One and a half Point awarded
+Sully had Creighton who beat Providence... One Point awarded
+Sully had Creighton who beat Providence who was ranked in top 25... Five Points awarded
+Jack had Houston who beat West Virginia... One Point awarded
+Silv had Kansas who beat TCU... One Point awarded
+Mike had Wisconsin who beat Nebraska... One Point awarded
+Sully had Baylor who beat Oklahoma State... One Point awarded
+Sully had Baylor who won on the road against Oklahoma State... One and a half Point awarded
+Silv had Alabama who beat Vanderbilt... One Point awarded
+Mike had San Diego State who beat UNLV... One Point awarded
+Dunne had USC who beat Stanford... One Point awarded
+Mike had Kansas State who beat UCF... One Point awarded
+Dunne had Duke who beat Notre Dame... One Point awarded
+Dunne had Duke who won on the road against Notre Dame... One and a half Point awarded
+Mike had Oklahoma who beat Iowa State... One Point awarded
+Sully had Tennessee who beat Ole Miss... One Point awarded
+Sully had Tennessee who beat Ole Miss who was ranked in top 25... Five Points awarded
+Mike had Arizona who beat Utah... One Point awarded
+Dunne had Indiana who beat Ohio State... One Point awarded
+Dunne had Texas Tech who beat Texas... One Point awarded
+Dunne had Texas Tech who beat Texas who was ranked in top 25... Five Points awarded
+Dunne had Texas Tech who won on the road against Texas... One and a half Point awarded
+Silv had Gonzaga who beat San Diego... One Point awarded
+Dunne had Saint Mary's who beat Loyola Marymount... One Point awarded
+Dunne had Saint Mary's who won on the road against Loyola Marymount... One and a half Point awarded
+Sully had New Mexico who beat Wyoming... One Point awarded
+Jack had Oregon who beat Washington State... One Point awarded
+Mike had Dayton who beat UMass... One Point awarded
+Sully had Memphis who beat SMU... One Point awarded
+Sully had Northwestern who beat Michigan State... One Point awarded
+{'Dunne': 184.0, 'Jack': 294.0, 'Mike': 278.0, 'Silv': 230.5, 'Sully': 258.5}

@@ -157,7 +157,7 @@ def generateScore(rosters, output_file):
     while looping_date < TODAY:
         #Gets the date into the format we need it in
         formatted_date = looping_date.strftime("%d/%m")
-        print(formatted_date)
+        year = looping_date.year
         
 
         #We set points to true once week 4 hits
@@ -179,7 +179,7 @@ def generateScore(rosters, output_file):
         
         #Gets the date into a url format
         url_date = f"{base_url}{formatted_date}/all-conf"
-        response = requests.get(f"https://sports.yahoo.com/college-basketball/scoreboard/?confId=all&schedState=2&dateRange=2023-{looping_date.strftime('%m')}-{looping_date.strftime('%d')}")
+        response = requests.get(f"https://sports.yahoo.com/college-basketball/scoreboard/?confId=all&schedState=2&dateRange={year}-{looping_date.strftime('%m')}-{looping_date.strftime('%d')}")
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, "html.parser")
