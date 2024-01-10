@@ -854,4 +854,36 @@ Jack had Oregon who beat Washington State... One Point awarded
 Mike had Dayton who beat UMass... One Point awarded
 Sully had Memphis who beat SMU... One Point awarded
 Sully had Northwestern who beat Michigan State... One Point awarded
-{'Dunne': 184.0, 'Jack': 294.0, 'Mike': 278.0, 'Silv': 230.5, 'Sully': 258.5}
+Jack has Purdue who is ranked No. 1 for week 10...1 point awarded
+Jack has Purdue who is ranked No. 1 for week 10.....3 points awarded
+Jack has Houston who is ranked No. 2 for week 10.....3 points awarded
+Silv has Kansas who is ranked No. 3 for week 10.....3 points awarded
+Mike has UConn who is ranked No. 4 for week 10.....3 points awarded
+Sully has Tennessee who is ranked No. 5 for week 10.....3 points awarded
+Dunne has Kentucky who is ranked No. 6 for week 10.....3 points awarded
+Jack has North Carolina who is ranked No. 7 for week 10.....3 points awarded
+Mike has Arizona who is ranked No. 8 for week 10.....3 points awarded
+Mike has Oklahoma who is ranked No. 9 for week 10.....3 points awarded
+Sully has Illinois who is ranked No. 10 for week 10.....3 points awarded
+Dunne has Duke who is ranked No. 11 for week 10.....3 points awarded
+Jack has Marquette who is ranked No. 12 for week 10.....3 points awarded
+Sully has Memphis who is ranked No. 13 for week 10.....3 points awarded
+Sully has Baylor who is ranked No. 14 for week 10.....3 points awarded
+Mike has Wisconsin who is ranked No. 15 for week 10.....3 points awarded
+Jack has Auburn who is ranked No. 16 for week 10.....1 point awarded
+Mike has San Diego State who is ranked No. 19 for week 10.....1 point awarded
+Jack has Clemson who is ranked No. 21 for week 10.....1 point awarded
+Sully has Creighton who is ranked No. 22 for week 10.....1 point awarded
+Silv has Gonzaga who is ranked No. 23 for week 10.....1 point awarded
+Silv has Florida Atlantic who is ranked No. 24 for week 10.....1 point awarded
+Mike has Texas who is ranked No. 25 for week 10.....1 point awarded
+Mike had Texas who beat Cincinnati... One Point awarded
+Dunne had VCU who beat George Mason... One Point awarded
+Dunne had VCU who won on the road against George Mason... One and a half Point awarded
+Silv had Iowa State who beat Houston... One Point awarded
+Silv had Iowa State who beat Houston who was ranked in top 25... Five Points awarded
+Dunne had Kentucky who beat Missouri... One Point awarded
+Jack had Rutgers who beat Indiana... One Point awarded
+Mike had Kansas State who beat West Virginia... One Point awarded
+Mike had Kansas State who won on the road against West Virginia... One and a half Point awarded
+{'Dunne': 193.5, 'Jack': 310.0, 'Mike': 295.5, 'Silv': 241.5, 'Sully': 271.5}
