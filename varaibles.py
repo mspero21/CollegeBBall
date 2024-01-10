@@ -73,7 +73,8 @@ team_mappings = {
     "Kansas St." : "Kansas State",
     "BYU": "BYU",
     "Colorado State": "Colorado State",
-    "Mississippi" : "Ole Miss"
+    "Mississippi" : "Ole Miss",
+    "Utah State" : "Utah State"
 }
 
 new_mappings = {
