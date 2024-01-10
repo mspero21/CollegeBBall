@@ -877,6 +877,7 @@ Sully has Creighton who is ranked No. 22 for week 10.....1 point awarded
 Silv has Gonzaga who is ranked No. 23 for week 10.....1 point awarded
 Silv has Florida Atlantic who is ranked No. 24 for week 10.....1 point awarded
 Mike has Texas who is ranked No. 25 for week 10.....1 point awarded
+Silv had Alabama who beat South Carolina... One Point awarded
 Mike had Texas who beat Cincinnati... One Point awarded
 Dunne had VCU who beat George Mason... One Point awarded
 Dunne had VCU who won on the road against George Mason... One and a half Point awarded
@@ -886,4 +887,14 @@ Dunne had Kentucky who beat Missouri... One Point awarded
 Jack had Rutgers who beat Indiana... One Point awarded
 Mike had Kansas State who beat West Virginia... One Point awarded
 Mike had Kansas State who won on the road against West Virginia... One and a half Point awarded
-{'Dunne': 193.5, 'Jack': 310.0, 'Mike': 295.5, 'Silv': 241.5, 'Sully': 271.5}
+Dunne had Texas Tech who beat Oklahoma State... One Point awarded
+Jack had Auburn who beat Texas A&M... One Point awarded
+Sully had Baylor who beat BYU... One Point awarded
+Sully had Baylor who beat BYU who was ranked in top 25... Five Points awarded
+Silv had Boise State who beat Colorado State... One Point awarded
+Silv had Boise State who beat Colorado State who was ranked in top 25... Five Points awarded
+Sully had Creighton who beat DePaul... One Point awarded
+Sully had Creighton who won on the road against DePaul... One and a half Point awarded
+Dunne had Duke who beat Pittsburgh... One Point awarded
+Mike had San Diego State who beat San Jose State... One Point awarded
+{'Dunne': 195.5, 'Jack': 311.0, 'Mike': 296.5, 'Silv': 248.5, 'Sully': 280.0}
