@@ -897,4 +897,18 @@ Sully had Creighton who beat DePaul... One Point awarded
 Sully had Creighton who won on the road against DePaul... One and a half Point awarded
 Dunne had Duke who beat Pittsburgh... One Point awarded
 Mike had San Diego State who beat San Jose State... One Point awarded
-{'Dunne': 195.5, 'Jack': 311.0, 'Mike': 296.5, 'Silv': 248.5, 'Sully': 280.0}
+Sully had Northwestern who beat Penn State... One Point awarded
+Sully had Northwestern who won on the road against Penn State... One and a half Point awarded
+Dunne had St. John's who beat Providence... One Point awarded
+Jack had Mississippi State who beat Tennessee... One Point awarded
+Jack had Mississippi State who beat Tennessee who was ranked in top 25... Five Points awarded
+Sully had Memphis who beat UTSA... One Point awarded
+Jack had North Carolina who beat North Carolina State... One Point awarded
+Mike had Wisconsin who beat Ohio State... One Point awarded
+Mike had Wisconsin who won on the road against Ohio State... One and a half Point awarded
+Mike had UConn who beat Xavier... One Point awarded
+Mike had UConn who won on the road against Xavier... One and a half Point awarded
+Sully had Ole Miss who beat Florida... One Point awarded
+Dunne had TCU who beat Oklahoma... One Point awarded
+Dunne had TCU who beat Oklahoma who was ranked in top 25... Five Points awarded
+{'Dunne': 202.5, 'Jack': 318.0, 'Mike': 301.5, 'Silv': 248.5, 'Sully': 284.5}
