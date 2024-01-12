@@ -911,4 +911,9 @@ Mike had UConn who won on the road against Xavier... One and a half Point awarde
 Sully had Ole Miss who beat Florida... One Point awarded
 Dunne had TCU who beat Oklahoma... One Point awarded
 Dunne had TCU who beat Oklahoma who was ranked in top 25... Five Points awarded
-{'Dunne': 202.5, 'Jack': 318.0, 'Mike': 301.5, 'Silv': 248.5, 'Sully': 284.5}
+Jack had Maryland who beat Michigan... One Point awarded
+Silv had Florida Atlantic who beat Tulane... One Point awarded
+Silv had Florida Atlantic who won on the road against Tulane... One and a half Point awarded
+Sully had Illinois who beat Michigan State... One Point awarded
+Dunne had Saint Mary's who beat Portland... One Point awarded
+{'Dunne': 203.5, 'Jack': 319.0, 'Mike': 301.5, 'Silv': 251.0, 'Sully': 285.5}
