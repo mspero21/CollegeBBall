@@ -916,4 +916,10 @@ Silv had Florida Atlantic who beat Tulane... One Point awarded
 Silv had Florida Atlantic who won on the road against Tulane... One and a half Point awarded
 Sully had Illinois who beat Michigan State... One Point awarded
 Dunne had Saint Mary's who beat Portland... One Point awarded
-{'Dunne': 203.5, 'Jack': 319.0, 'Mike': 301.5, 'Silv': 251.0, 'Sully': 285.5}
+Dunne had Indiana who beat Minnesota... One Point awarded
+Mike had Dayton who beat Duquesne... One Point awarded
+Mike had Dayton who won on the road against Duquesne... One and a half Point awarded
+Silv had Villanova who beat DePaul... One Point awarded
+Silv had Boise State who beat Nevada... One Point awarded
+Silv had Boise State who won on the road against Nevada... One and a half Point awarded
+{'Dunne': 204.5, 'Jack': 319.0, 'Mike': 304.0, 'Silv': 254.5, 'Sully': 285.5}
