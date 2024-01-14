@@ -204,6 +204,11 @@ def generateScore(rosters, output_file):
                     winner = team_mappings[winner]
                 if loser in team_mappings:
                     loser = team_mappings[loser]
+                if home_team in team_mappings:
+                    home_team = team_mappings[home_team]
+                if away_team in team_mappings:
+                    away_team = team_mappings[away_team]
+                
                 #Makes sure winner is drafted by one of us 
                 # print(f"winner: {winner}")
                 # print(f"loser: {loser}")
