@@ -141,6 +141,7 @@ conferences_dict = {
         "Georgia Tech",
         "Louisville",
         "Notre Dame",
+        "Virginia Tech"
     ],
     "PAC": [
         "Arizona",
