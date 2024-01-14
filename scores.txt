@@ -922,4 +922,37 @@ Mike had Dayton who won on the road against Duquesne... One and a half Point awa
 Silv had Villanova who beat DePaul... One Point awarded
 Silv had Boise State who beat Nevada... One Point awarded
 Silv had Boise State who won on the road against Nevada... One and a half Point awarded
-{'Dunne': 204.5, 'Jack': 319.0, 'Mike': 304.0, 'Silv': 254.5, 'Sully': 285.5}
+Sully had Tennessee who beat Georgia... One Point awarded
+Sully had Tennessee who won on the road against Georgia... One and a half Point awarded
+Jack had North Carolina who beat Syracuse... One Point awarded
+Mike had Wisconsin who beat Northwestern... One Point awarded
+Dunne had VCU who beat La Salle... One Point awarded
+Dunne had VCU who won on the road against La Salle... One and a half Point awarded
+Sully had Creighton who beat St. John's... One Point awarded
+Sully had Ole Miss who beat Vanderbilt... One Point awarded
+Silv had Kansas who beat Oklahoma... One Point awarded
+Silv had Kansas who beat Oklahoma who was ranked in top 25... Five Points awarded
+Sully had New Mexico who beat San Diego State... One Point awarded
+Sully had New Mexico who beat San Diego State who was ranked in top 25... Five Points awarded
+Sully had Xavier who beat Providence... One Point awarded
+Sully had Xavier who won on the road against Providence... One and a half Point awarded
+Jack had Texas A&M who beat Kentucky... One Point awarded
+Jack had Texas A&M who beat Kentucky who was ranked in top 25... Five Points awarded
+Jack had Purdue who beat Penn State... One Point awarded
+Jack had Clemson who beat Boston College... One Point awarded
+Silv had Florida who beat Arkansas... One Point awarded
+Dunne had Texas Tech who beat Kansas State... One Point awarded
+Dunne had Duke who beat Georgia Tech... One Point awarded
+Jack had Auburn who beat LSU... One Point awarded
+Dunne had TCU who beat Houston... One Point awarded
+Dunne had TCU who beat Houston who was ranked in top 25... Five Points awarded
+Dunne had Saint Mary's who beat Santa Clara... One Point awarded
+Dunne had Saint Mary's who won on the road against Santa Clara... One and a half Point awarded
+Silv had Miami who beat Virginia Tech... One Point awarded
+Sully had Baylor who beat Cincinnati... One Point awarded
+Jack had Oregon who beat California... One Point awarded
+Silv had Iowa State who beat Oklahoma State... One Point awarded
+Silv had Alabama who beat Mississippi State... One Point awarded
+Silv had Alabama who won on the road against Mississippi State... One and a half Point awarded
+Sully had Colorado who beat USC... One Point awarded
+{'Dunne': 217.5, 'Jack': 330.0, 'Mike': 305.0, 'Silv': 266.0, 'Sully': 300.5}
