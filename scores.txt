@@ -966,4 +966,30 @@ Jack had Maryland who won on the road against Illinois... One and a half Point a
 Mike had Tulane who beat Tulsa... One Point awarded
 Mike had Tulane who won on the road against Tulsa... One and a half Point awarded
 Silv had UCLA who beat Washington... One Point awarded
-{'Dunne': 217.5, 'Jack': 337.5, 'Mike': 309.5, 'Silv': 269.5, 'Sully': 301.5}
+Mike has UConn who is ranked No. 1 for week 11...1 point awarded
+Mike has UConn who is ranked No. 1 for week 11.....3 points awarded
+Jack has Purdue who is ranked No. 2 for week 11.....3 points awarded
+Silv has Kansas who is ranked No. 3 for week 11.....3 points awarded
+Jack has North Carolina who is ranked No. 4 for week 11.....3 points awarded
+Jack has Houston who is ranked No. 5 for week 11.....3 points awarded
+Sully has Tennessee who is ranked No. 6 for week 11.....3 points awarded
+Dunne has Duke who is ranked No. 7 for week 11.....3 points awarded
+Dunne has Kentucky who is ranked No. 8 for week 11.....3 points awarded
+Sully has Baylor who is ranked No. 9 for week 11.....3 points awarded
+Sully has Memphis who is ranked No. 10 for week 11.....3 points awarded
+Mike has Wisconsin who is ranked No. 11 for week 11.....3 points awarded
+Mike has Arizona who is ranked No. 12 for week 11.....3 points awarded
+Jack has Auburn who is ranked No. 13 for week 11.....3 points awarded
+Sully has Illinois who is ranked No. 14 for week 11.....3 points awarded
+Mike has Oklahoma who is ranked No. 15 for week 11.....3 points awarded
+Jack has Marquette who is ranked No. 17 for week 11.....1 point awarded
+Sully has Creighton who is ranked No. 18 for week 11.....1 point awarded
+Dunne has TCU who is ranked No. 19 for week 11.....1 point awarded
+Mike has Dayton who is ranked No. 21 for week 11.....1 point awarded
+Sully has Ole Miss who is ranked No. 22 for week 11.....1 point awarded
+Silv has Florida Atlantic who is ranked No. 23 for week 11.....1 point awarded
+Silv has Iowa State who is ranked No. 24 for week 11.....1 point awarded
+Dunne has Texas Tech who is ranked No. 25 for week 11.....1 point awarded
+Dunne had Michigan who beat Ohio State... One Point awarded
+Jack had Marquette who beat Villanova... One Point awarded
+{'Dunne': 226.5, 'Jack': 351.5, 'Mike': 323.5, 'Silv': 274.5, 'Sully': 315.5}
