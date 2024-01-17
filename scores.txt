@@ -992,4 +992,17 @@ Silv has Iowa State who is ranked No. 24 for week 11.....1 point awarded
 Dunne has Texas Tech who is ranked No. 25 for week 11.....1 point awarded
 Dunne had Michigan who beat Ohio State... One Point awarded
 Jack had Marquette who beat Villanova... One Point awarded
-{'Dunne': 226.5, 'Jack': 351.5, 'Mike': 323.5, 'Silv': 274.5, 'Sully': 315.5}
+Sully had Tennessee who beat Florida... One Point awarded
+Sully had Xavier who beat Butler... One Point awarded
+Silv had Alabama who beat Missouri... One Point awarded
+Jack had Purdue who beat Indiana... One Point awarded
+Jack had Purdue who won on the road against Indiana... One and a half Point awarded
+Mike had Dayton who beat Saint Louis... One Point awarded
+Mike had Kansas State who beat Baylor... One Point awarded
+Mike had Kansas State who beat Baylor who was ranked in top 25... Five Points awarded
+Sully had Arkansas who beat Texas A&M... One Point awarded
+Silv had Kansas who beat Oklahoma State... One Point awarded
+Silv had Kansas who won on the road against Oklahoma State... One and a half Point awarded
+Sully had New Mexico who beat Utah State... One Point awarded
+Sully had New Mexico who beat Utah State who was ranked in top 25... Five Points awarded
+{'Dunne': 226.5, 'Jack': 354.0, 'Mike': 330.5, 'Silv': 278.0, 'Sully': 324.5}
