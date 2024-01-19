@@ -1022,4 +1022,11 @@ Sully had Northwestern who beat Maryland... One Point awarded
 Jack had Auburn who beat Vanderbilt... One Point awarded
 Mike had Arizona who beat USC... One Point awarded
 Mike had San Diego State who beat Nevada... One Point awarded
-{'Dunne': 227.5, 'Jack': 363.0, 'Mike': 343.0, 'Silv': 279.0, 'Sully': 326.5}
+Mike had Michigan State who beat Minnesota... One Point awarded
+Silv had Florida Atlantic who beat Wichita State... One Point awarded
+Sully had Illinois who beat Michigan... One Point awarded
+Sully had Illinois who won on the road against Michigan... One and a half Point awarded
+Silv had Gonzaga who beat Pepperdine... One Point awarded
+Silv had Gonzaga who won on the road against Pepperdine... One and a half Point awarded
+Sully had Colorado who beat Oregon... One Point awarded
+{'Dunne': 227.5, 'Jack': 363.0, 'Mike': 344.0, 'Silv': 282.5, 'Sully': 330.0}
