@@ -1029,4 +1029,7 @@ Sully had Illinois who won on the road against Michigan... One and a half Point 
 Silv had Gonzaga who beat Pepperdine... One Point awarded
 Silv had Gonzaga who won on the road against Pepperdine... One and a half Point awarded
 Sully had Colorado who beat Oregon... One Point awarded
-{'Dunne': 227.5, 'Jack': 363.0, 'Mike': 344.0, 'Silv': 282.5, 'Sully': 330.0}
+Sully had Xavier who beat Georgetown... One Point awarded
+Dunne had VCU who beat Saint Louis... One Point awarded
+Mike had Wisconsin who beat Indiana... One Point awarded
+{'Dunne': 228.5, 'Jack': 363.0, 'Mike': 345.0, 'Silv': 282.5, 'Sully': 331.0}
