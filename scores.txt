@@ -1073,4 +1073,10 @@ Jack had Auburn who beat Ole Miss who was ranked in top 25... Five Points awarde
 Silv had Gonzaga who beat San Diego... One Point awarded
 Silv had Gonzaga who won on the road against San Diego... One and a half Point awarded
 Dunne had Saint Mary's who beat San Francisco... One Point awarded
-{'Dunne': 236.5, 'Jack': 382.0, 'Mike': 360.0, 'Silv': 297.0, 'Sully': 336.5}
+Mike had Michigan State who beat Maryland... One Point awarded
+Mike had Michigan State who won on the road against Maryland... One and a half Point awarded
+Sully had Illinois who beat Rutgers... One Point awarded
+Mike had Tulane who beat Memphis... One Point awarded
+Mike had Tulane who beat Memphis who was ranked in top 25... Five Points awarded
+Silv had Florida Atlantic who beat UTSA... One Point awarded
+{'Dunne': 236.5, 'Jack': 382.0, 'Mike': 368.5, 'Silv': 298.0, 'Sully': 337.5}
