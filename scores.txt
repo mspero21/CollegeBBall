@@ -1104,8 +1104,5 @@ Silv has Iowa State who is ranked No. 23 for week 12.....1 point awarded
 Sully has New Mexico who is ranked No. 25 for week 12.....1 point awarded
 Jack had North Carolina who beat Wake Forest... One Point awarded
 Silv had Kansas who beat Cincinnati... One Point awarded
-Dunne had TCU who beat Oklahoma State... One Point awarded
-Dunne had TCU who won on the road against Oklahoma State... One and a half Point awarded
-Jack had Texas A&M who beat Missouri... One Point awarded
 Silv had Boise State who beat Fresno State... One Point awarded
-{'Dunne': 246.0, 'Jack': 399.0, 'Mike': 382.5, 'Silv': 305.0, 'Sully': 349.5}
+{'Dunne': 243.5, 'Jack': 398.0, 'Mike': 382.5, 'Silv': 305.0, 'Sully': 349.5}
