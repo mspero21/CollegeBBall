@@ -1124,4 +1124,25 @@ Jack had Purdue who beat Michigan... One Point awarded
 Mike had San Diego State who beat Wyoming... One Point awarded
 Jack had Texas A&M who beat Missouri... One Point awarded
 Silv had Boise State who beat Fresno State... One Point awarded
-{'Dunne': 249.5, 'Jack': 407.0, 'Mike': 396.0, 'Silv': 305.0, 'Sully': 350.5}
+Mike had Providence who beat Seton Hall... One Point awarded
+Mike had Providence who won on the road against Seton Hall... One and a half Point awarded
+Jack had Maryland who beat Iowa... One Point awarded
+Jack had Maryland who won on the road against Iowa... One and a half Point awarded
+Silv had Miami who beat Notre Dame... One Point awarded
+Silv had Miami who won on the road against Notre Dame... One and a half Point awarded
+Mike had Virginia who beat North Carolina State... One Point awarded
+Silv had Alabama who beat Auburn... One Point awarded
+Silv had Alabama who beat Auburn who was ranked in top 25... Five Points awarded
+Silv had Florida Atlantic who beat Rice... One Point awarded
+Silv had Florida who beat Mississippi State... One Point awarded
+Dunne had St. John's who beat Villanova... One Point awarded
+Jack had Marquette who beat DePaul... One Point awarded
+Jack had Marquette who won on the road against DePaul... One and a half Point awarded
+Silv had Iowa State who beat Kansas State... One Point awarded
+Sully had Ole Miss who beat Arkansas... One Point awarded
+Sully had Northwestern who beat Illinois... One Point awarded
+Sully had Northwestern who beat Illinois who was ranked in top 25... Five Points awarded
+Sully had New Mexico who beat San Jose State... One Point awarded
+Sully had Colorado who beat Washington... One Point awarded
+Sully had Colorado who won on the road against Washington... One and a half Point awarded
+{'Dunne': 250.5, 'Jack': 412.0, 'Mike': 399.5, 'Silv': 316.5, 'Sully': 361.0}
