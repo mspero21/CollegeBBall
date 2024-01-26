@@ -1145,4 +1145,7 @@ Sully had Northwestern who beat Illinois who was ranked in top 25... Five Points
 Sully had New Mexico who beat San Jose State... One Point awarded
 Sully had Colorado who beat Washington... One Point awarded
 Sully had Colorado who won on the road against Washington... One and a half Point awarded
-{'Dunne': 250.5, 'Jack': 412.0, 'Mike': 399.5, 'Silv': 316.5, 'Sully': 361.0}
+Silv had Gonzaga who beat San Francisco... One Point awarded
+Jack had Oregon who beat Arizona State... One Point awarded
+Dunne had Saint Mary's who beat Pacific... One Point awarded
+{'Dunne': 251.5, 'Jack': 413.0, 'Mike': 399.5, 'Silv': 317.5, 'Sully': 361.0}
