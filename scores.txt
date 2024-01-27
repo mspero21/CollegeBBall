@@ -1148,4 +1148,6 @@ Sully had Colorado who won on the road against Washington... One and a half Poin
 Silv had Gonzaga who beat San Francisco... One Point awarded
 Jack had Oregon who beat Arizona State... One Point awarded
 Dunne had Saint Mary's who beat Pacific... One Point awarded
-{'Dunne': 251.5, 'Jack': 413.0, 'Mike': 399.5, 'Silv': 317.5, 'Sully': 361.0}
+Mike had Wisconsin who beat Michigan State... One Point awarded
+Sully had St. Bonaventure who beat Saint Joseph's... One Point awarded
+{'Dunne': 251.5, 'Jack': 413.0, 'Mike': 400.5, 'Silv': 317.5, 'Sully': 362.0}
