@@ -1194,4 +1194,31 @@ Silv had Florida Atlantic who beat North Texas... One Point awarded
 Jack had Purdue who beat Rutgers... One Point awarded
 Jack had Purdue who won on the road against Rutgers... One and a half Point awarded
 Sully had New Mexico who beat Nevada... One Point awarded
-{'Dunne': 273.5, 'Jack': 426.5, 'Mike': 407.5, 'Silv': 332.0, 'Sully': 369.5}
+Mike has UConn who is ranked No. 1 for week 13...1 point awarded
+Mike has UConn who is ranked No. 1 for week 13.....3 points awarded
+Jack has Purdue who is ranked No. 2 for week 13.....3 points awarded
+Jack has North Carolina who is ranked No. 3 for week 13.....3 points awarded
+Jack has Houston who is ranked No. 4 for week 13.....3 points awarded
+Sully has Tennessee who is ranked No. 5 for week 13.....3 points awarded
+Mike has Wisconsin who is ranked No. 6 for week 13.....3 points awarded
+Dunne has Duke who is ranked No. 7 for week 13.....3 points awarded
+Silv has Kansas who is ranked No. 8 for week 13.....3 points awarded
+Jack has Marquette who is ranked No. 9 for week 13.....3 points awarded
+Dunne has Kentucky who is ranked No. 10 for week 13.....3 points awarded
+Mike has Arizona who is ranked No. 11 for week 13.....3 points awarded
+Silv has Iowa State who is ranked No. 12 for week 13.....3 points awarded
+Sully has Creighton who is ranked No. 13 for week 13.....3 points awarded
+Sully has Illinois who is ranked No. 14 for week 13.....3 points awarded
+Dunne has Texas Tech who is ranked No. 15 for week 13.....3 points awarded
+Jack has Auburn who is ranked No. 16 for week 13.....1 point awarded
+Sully has Baylor who is ranked No. 18 for week 13.....1 point awarded
+Sully has New Mexico who is ranked No. 19 for week 13.....1 point awarded
+Silv has Florida Atlantic who is ranked No. 20 for week 13.....1 point awarded
+Mike has Dayton who is ranked No. 21 for week 13.....1 point awarded
+Mike has Oklahoma who is ranked No. 23 for week 13.....1 point awarded
+Silv has Alabama who is ranked No. 24 for week 13.....1 point awarded
+Dunne has TCU who is ranked No. 25 for week 13.....1 point awarded
+Dunne had Duke who beat Virginia Tech... One Point awarded
+Dunne had Duke who won on the road against Virginia Tech... One and a half Point awarded
+Jack had Houston who beat Texas... One Point awarded
+{'Dunne': 286.0, 'Jack': 440.5, 'Mike': 419.5, 'Silv': 340.0, 'Sully': 380.5}
