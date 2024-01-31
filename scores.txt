@@ -1221,4 +1221,20 @@ Dunne has TCU who is ranked No. 25 for week 13.....1 point awarded
 Dunne had Duke who beat Virginia Tech... One Point awarded
 Dunne had Duke who won on the road against Virginia Tech... One and a half Point awarded
 Jack had Houston who beat Texas... One Point awarded
-{'Dunne': 286.0, 'Jack': 440.5, 'Mike': 419.5, 'Silv': 340.0, 'Sully': 380.5}
+Mike had Dayton who beat George Washington... One Point awarded
+Dunne had Indiana who beat Iowa... One Point awarded
+Sully had Illinois who beat Ohio State... One Point awarded
+Sully had Illinois who won on the road against Ohio State... One and a half Point awarded
+Sully had St. Bonaventure who beat VCU... One Point awarded
+Dunne had TCU who beat Texas Tech... One Point awarded
+Dunne had TCU who beat Texas Tech who was ranked in top 25... Five Points awarded
+Jack had Marquette who beat Villanova... One Point awarded
+Jack had Marquette who won on the road against Villanova... One and a half Point awarded
+Mike had Oklahoma who beat Kansas State... One Point awarded
+Mike had Oklahoma who won on the road against Kansas State... One and a half Point awarded
+Sully had Ole Miss who beat Mississippi State... One Point awarded
+Jack had Clemson who beat Louisville... One Point awarded
+Silv had Kansas who beat Oklahoma State... One Point awarded
+Mike had Michigan State who beat Michigan... One Point awarded
+Silv had Gonzaga who beat Loyola Marymount... One Point awarded
+{'Dunne': 293.0, 'Jack': 444.0, 'Mike': 424.0, 'Silv': 342.0, 'Sully': 385.0}
