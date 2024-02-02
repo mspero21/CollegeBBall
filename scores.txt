@@ -1255,4 +1255,8 @@ Silv had Boise State who beat New Mexico... One Point awarded
 Silv had Boise State who beat New Mexico who was ranked in top 25... Five Points awarded
 Silv had Boise State who won on the road against New Mexico... One and a half Point awarded
 Dunne had Saint Mary's who beat Santa Clara... One Point awarded
-{'Dunne': 294.0, 'Jack': 447.0, 'Mike': 426.0, 'Silv': 359.5, 'Sully': 389.5}
+Mike had Arizona who beat California... One Point awarded
+Silv had UCLA who beat Oregon State... One Point awarded
+Jack had Oregon who beat USC... One Point awarded
+Jack had Oregon who won on the road against USC... One and a half Point awarded
+{'Dunne': 294.0, 'Jack': 449.5, 'Mike': 427.0, 'Silv': 360.5, 'Sully': 389.5}
