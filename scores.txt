@@ -1259,4 +1259,5 @@ Mike had Arizona who beat California... One Point awarded
 Silv had UCLA who beat Oregon State... One Point awarded
 Jack had Oregon who beat USC... One Point awarded
 Jack had Oregon who won on the road against USC... One and a half Point awarded
-{'Dunne': 294.0, 'Jack': 449.5, 'Mike': 427.0, 'Silv': 360.5, 'Sully': 389.5}
+Mike had Dayton who beat St. Bonaventure... One Point awarded
+{'Dunne': 294.0, 'Jack': 449.5, 'Mike': 428.0, 'Silv': 360.5, 'Sully': 389.5}
