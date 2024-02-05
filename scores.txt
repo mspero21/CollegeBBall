@@ -1301,4 +1301,11 @@ Sully had Xavier who won on the road against DePaul... One and a half Point awar
 Silv had UCLA who beat Oregon... One Point awarded
 Dunne had Saint Mary's who beat Gonzaga... One Point awarded
 Dunne had Saint Mary's who won on the road against Gonzaga... One and a half Point awarded
-{'Dunne': 298.5, 'Jack': 466.5, 'Mike': 447.5, 'Silv': 372.5, 'Sully': 406.5}
+Jack had Purdue who beat Wisconsin... One Point awarded
+Jack had Purdue who beat Wisconsin who was ranked in top 25... Five Points awarded
+Jack had Purdue who won on the road against Wisconsin... One and a half Point awarded
+Mike had Tulane who beat Temple... One Point awarded
+Silv had Villanova who beat Providence... One Point awarded
+Sully had Illinois who beat Nebraska... One Point awarded
+Mike had Arizona who beat Stanford... One Point awarded
+{'Dunne': 298.5, 'Jack': 474.0, 'Mike': 449.5, 'Silv': 373.5, 'Sully': 407.5}
