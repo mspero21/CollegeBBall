@@ -74,7 +74,9 @@ team_mappings = {
     "BYU": "BYU",
     "Colorado State": "Colorado State",
     "Mississippi" : "Ole Miss",
-    "Utah State" : "Utah State"
+    "Utah State" : "Utah State",
+    "South Carolina" : "South Carolina",
+    "Indiana State" : "Indiana State"
 }
 
 new_mappings = {
