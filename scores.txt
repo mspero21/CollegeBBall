@@ -1308,9 +1308,6 @@ Mike had Tulane who beat Temple... One Point awarded
 Silv had Villanova who beat Providence... One Point awarded
 Sully had Illinois who beat Nebraska... One Point awarded
 Mike had Arizona who beat Stanford... One Point awarded
-<<<<<<< HEAD
-{'Dunne': 298.5, 'Jack': 474.0, 'Mike': 449.5, 'Silv': 373.5, 'Sully': 407.5}
-=======
 Mike has UConn who is ranked No. 1 for week 14...1 point awarded
 Mike has UConn who is ranked No. 1 for week 14.....3 points awarded
 Jack has Purdue who is ranked No. 2 for week 14.....3 points awarded
@@ -1548,5 +1545,6 @@ Silv had Ohio State who beat Purdue... One Point awarded
 Silv had Ohio State who beat Purdue who was ranked in top 25... Five Points awarded
 Sully had Northwestern who beat Indiana... One Point awarded
 Sully had Northwestern who won on the road against Indiana... One and a half Point awarded
-{'Dunne': 358.5, 'Jack': 571.0, 'Mike': 535.0, 'Silv': 459.5, 'Sully': 481.0}
->>>>>>> 5ae2531 (change)
+Jack had Houston who beat Iowa State... One Point awarded
+Mike had Texas who beat Kansas State... One Point awarded
+{'Dunne': 358.5, 'Jack': 572.0, 'Mike': 536.0, 'Silv': 459.5, 'Sully': 481.0}
